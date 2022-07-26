@@ -7,22 +7,23 @@
 本仓库包含以下内容：
 
 1. 一些学习的[心得笔记](#心的笔记)
+
 2. 一些[学习软件](#Software)的安装（白嫖使我快乐，仅供自身学习使用，请勿外传）
+
 3. 一些可能有用的[电子书籍](#电子书)（还是白嫖）
+
 4. 待更新。。。
+
+   
 
 ## 心的笔记
 
-- [背景](#背景)
-- [安装](#安装)
-- [使用说明](#使用说明)
-	- [生成器](#生成器)
-- [徽章](#徽章)
-- [示例](#示例)
-- [相关仓库](#相关仓库)
-- [维护者](#维护者)
-- [如何贡献](#如何贡献)
-- [使用许可](#使用许可)
+- SLAM理论基础
+- C++相关知识
+- SLAM配置文档
+- Linux
+- QT编程
+- 
 
 ## Software
 
@@ -41,10 +42,16 @@
 这个仓库的目标是：
 
 1. 一个定义良好的**规范**。在仓库中的位置是 [spec.md](spec.md)。它是一个一直在持续优化的文档，欢迎您提 Issue 讨论其中的变化。
+
 2. 一个**示例 README**。这个 Readme 完全遵从 Standard-readme，而且在 `example-readmes` 文件夹里有更多的示例。
+
 3. 一个**语法提示器**用来提示在 Readme 中的语法错误。请参考 [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5)。
+
 4. 一个**生成器**用来快速搭建新的 README 的框架。请参考 [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme)。
+
 5. 一个**标识准守规范的徽章**。请参考[徽章](#徽章)。
+
+   
 
 ## 电子书
 
@@ -54,6 +61,6 @@
 
 ## 维护者
 
-[@RichardLitt](https://github.com/RichardLitt)。
+[@HanLin](https://github.com/hanlin-cheng)
 
 
