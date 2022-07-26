@@ -4,19 +4,19 @@
 
 ### 1.环境变量
 
-```
+```shell
 source devel/setup.bash
 ```
 
 ### 2.启动lio-sam功能包
 
-```
+```shell
 roslaunch lio_sam run.launch
 ```
 
 ### 3.播放数据集
 
-```
+```shell
 rosbag play outdoor.bag
 ```
 
@@ -44,7 +44,7 @@ rosbag play outdoor.bag
 
 ### 4.添加环境变量
 
-```
+```shell
 source devel/setup.bash
 ```
 
@@ -52,7 +52,7 @@ source devel/setup.bash
 
 ### 5.启动xsens
 
-```
+```shell
 sudo chmod 777 /dev/ttyUSB\*
 roslaunch xsens_mti_driver xsens_mti_node.launch
 ```
@@ -61,7 +61,7 @@ roslaunch xsens_mti_driver xsens_mti_node.launch
 
 ### 6.启动激光雷达
 
-```
+```shell
 roslaunch velodyne_pointcloud velodyne_vlp16.launch
 ```
 
@@ -69,7 +69,7 @@ roslaunch velodyne_pointcloud velodyne_vlp16.launch
 
 ### 7.启动LIO-SAM
 
-```
+```shell
 roslaunch lio_sam run.launch
 ```
 

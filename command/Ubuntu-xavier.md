@@ -2,7 +2,7 @@
 
 ## 1.查看NVIDIA jetson相关参数
 
-```
+```shell
 sudo jtop
 ```
 
@@ -10,7 +10,7 @@ sudo jtop
 
 ## 2.更改xavier风扇转速
 
-```
+```shell
 sudo gedit /sys/devices/pwm-fan/target_pwm
 ```
 

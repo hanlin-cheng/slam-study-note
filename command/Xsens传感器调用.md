@@ -2,7 +2,7 @@
 
 
 
-```
+```shell
 source devel/setup.bash
 
 sudo chmod 777 /dev/ttyUSB\*

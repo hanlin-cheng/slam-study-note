@@ -6,7 +6,7 @@
 
 ## 1.安装并设置地址
 
-```
+```shell
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
@@ -15,7 +15,7 @@ $ git config --global user.email "email@example.com"
 
 ## 2.创建版本库
 
-```
+```shell
 $ mkdir learngit
 $ cd learngit
 $ pwd
@@ -31,7 +31,7 @@ $ git init
 - ### 添加文件
 
 
-```
+```shell
 $ git add readme.txt
 $ git commit -m "wrote a readme file"
 ```
@@ -41,7 +41,7 @@ $ git commit -m "wrote a readme file"
 - ### 查看工作区状态
 
 
-```
+```shell
 $ git status
 ```
 
@@ -50,7 +50,7 @@ $ git status
 - ### 查看提交日志
 
 
-```
+```shell
 $ git log
 ```
 
@@ -59,7 +59,7 @@ $ git log
 - ### 查看历史命令
 
 
-```
+```shell
 $ git reflog
 ```
 
@@ -68,7 +68,7 @@ $ git reflog
 - ### 版本间穿梭
 
 
-```
+```shell
 $ git reset --hard commit_id
 ```
 
@@ -85,7 +85,7 @@ expmple:
 
 场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，或者删除了工作区某个文件，用命令
 
-```
+```shell
 $ git checkout -- <file>
 ```
 
@@ -93,7 +93,7 @@ $ git checkout -- <file>
 
 场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步
 
-```
+```shell
 $ git reset HEAD <file>
 $ git checkout -- <file>
 ```
@@ -105,7 +105,7 @@ $ git checkout -- <file>
 - ### 删除文件
 
 
-```
+```shell
 $ git rm <file>
 $ git commit -m "remove test.txt"
 ```
@@ -119,7 +119,7 @@ $ git commit -m "remove test.txt"
 
 创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有`id_rsa`和`id_rsa.pub`这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
 
-```
+```shell
 $ ssh-keygen -t rsa -C "youremail@example.com"
 ```
 
@@ -144,7 +144,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 根据GitHub的提示，在本地的`learngit`仓库下运行命令（请千万注意，把上面的`michaelliao`替换成你自己的GitHub账户名）：
 
-```
+```shell
 $ git remote add origin git@github.com:michaelliao/learngit.git
 ```
 
@@ -157,7 +157,7 @@ $ git remote add origin git@github.com:michaelliao/learngit.git
 
 就可以把本地库的所有内容推送到远程库上（添加后，远程库的名字就是`origin`，这是Git默认的叫法，也可以改成别的，但是`origin`这个名字一看就知道是远程库）：
 
-```
+```shell
 $ git push -u origin master
 Counting objects: 20, done.
 Delta compression using up to 4 threads.
@@ -174,7 +174,7 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 由于远程库是空的，我们第一次推送`master`分支时，加上了`-u`参数，Git不但会把本地的`master`分支内容推送的远程新的`master`分支，还会把本地的`master`分支和远程的`master`分支关联起来，在以后的推送或者拉取时就可以简化命令：
 
-```
+```shell
 $ git push origin master
 ```
 
@@ -184,7 +184,7 @@ $ git push origin master
 
 如果添加的时候地址写错了，或者就是想删除远程库，可以用`git remote rm <name>`命令。使用前，建议先用`git remote -v`查看远程库信息：
 
-```
+```shell
 $ git remote -v
 origin  git@github.com:michaelliao/learn-git.git (fetch)
 origin  git@github.com:michaelliao/learn-git.git (push)
@@ -192,7 +192,7 @@ origin  git@github.com:michaelliao/learn-git.git (push)
 
 然后，根据名字删除，比如删除`origin`：
 
-```
+```shell
 $ git remote rm origin
 ```
 
