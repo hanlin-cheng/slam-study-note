@@ -26,13 +26,13 @@
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
-  - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA Xavier安装Qt.md)
+  - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
 - 一些怎么也记不全的[command](./command/)指令
-  - [Git_Command](./command/Git Command.md)
+  - [Git_Command](./command/Git_Command.md)
   - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
   - [LIO-SAM运行](./command/LIO-SAM运行.md)
   - [Orb-slam2运行](./command/Orb-slam2运行.md)
-  - [Velodyne_VLP16线激光雷达调用](./command/Velodyne VLP16激光雷达调用.md)
+  - [Velodyne_VLP16线激光雷达调用](./command/Velodyne_VLP16激光雷达调用.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
 
