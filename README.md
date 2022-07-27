@@ -10,7 +10,7 @@
 
 3. 一些可能有用的[电子书籍](#电子书)（白嫖使我快乐）
 
-3. 一些[学习软件](#Software)的安装（还是白嫖^_^，仅供自身学习使用，请勿外传）
+3. 一些[学习软件](#Software)的安装（还是白嫖^_^，仅供自身学习使用，请勿外传，亲测无病毒，放心使用！）
 
 4. 待更新......!^_^
 
@@ -38,7 +38,7 @@
 
 
 
-##电子书
+## 电子书
 
 
 
@@ -46,40 +46,64 @@
 
 ## Software
 
-`标准 Readme` 最开始因为 [@maxogden](https://github.com/maxogden) 在项目 [feross/standard](https://github.com/feross/standard) 的[这个 Issue](https://github.com/feross/standard/issues/141) 中提出，是否标准化 README 会有助于帮助大家。很多人在仓库 [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) 就这个想法进行了讨论。在我维护仓库 [IPFS](https://github.com/ipfs) 的时候，我需要在这个组织中推广标准化的 Readme，因此这个项目也就从这开始了。
+- ### Typora
 
-> 如果你的文档是完整的，那么使用你代码的人就不用再去看代码了。这非常的重要。它使得你可以分离接口文档与具体实现。它意味着你可修改实现的代码而保持接口与文档不变。
+  ​	作为一名程序员，强烈建议大家使用Markdown语法编写文档。它允许人们使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
 
-> 请记住：是文档而非代码，定义了一个模块的功能。
-
-—— [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
-
-写 README 从某种程度上来说相当不易，一直维护下去更是难能可贵。如果可以减少这个过程，则可以让写代码与修改代码更容易，使得是否在说明中指明一处需改有无必要更加清楚，你可以花费更少的时间来考虑是否你最初的文档是否需要更新，你可以分配更多的时间来写代码而非维护文档。
-
-同时，标准化在某些别的地方也有好处。有了标准化，用户就可以花费更少的时间来搜索他们需要的信息，他们同时可以做一个工具来从描述中搜集信息，自动跑示例代码，检查授权协议等等。
-
-这个仓库的目标是：
-
-1. 一个定义良好的**规范**。在仓库中的位置是 [spec.md](spec.md)。它是一个一直在持续优化的文档，欢迎您提 Issue 讨论其中的变化。
-
-2. 一个**示例 README**。这个 Readme 完全遵从 Standard-readme，而且在 `example-readmes` 文件夹里有更多的示例。
-
-3. 一个**语法提示器**用来提示在 Readme 中的语法错误。请参考 [tracking issue](https://github.com/RichardLitt/standard-readme/issues/5)。
-
-4. 一个**生成器**用来快速搭建新的 README 的框架。请参考 [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme)。
-
-5. 一个**标识准守规范的徽章**。请参考[徽章](#徽章)。
-
-   
-
-## 
+  - [Windows版本](https://pan.baidu.com/s/14Fftz3ECigAh-abV-7VHrw) 提取码：`1314`
+  - [Linux版本](https://pan.baidu.com/s/1rAC-yfhA9-UNVo0y0AIxyg) 提取码：`1314`
 
 
+
+- ### XMind
+
+  ​	最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
+
+  - [XMind](https://pan.baidu.com/s/1oFZS5czuOF2hEbw1LfxgIw) 提取码：`1314`
+  - 流氓软件默认安装c盘，安装好后将破解包里的app.asar文件复制替换到Program Files/XMind/resources目录下即可。	
+
+
+
+- ### MATLAB
+
+  ​	MATLAB，工科生居家旅行必备。有什么好说的吗？没什么好说的吧......
+
+  - [MATLAB](https://pan.baidu.com/s/1aH7OmFjjGApE-v0Md8aB8w) 提取码：`1314`
+  - 至于详细怎么安装，请自行百度。ps：安装镜像文件，选择密钥安装，最后将补丁文件复制到软件文件夹下全部替换就可以啦O(∩_∩)O
+
+
+
+- ### IDM
+
+  ​	受够了百度云，迅雷的限速吗，请使用IDM下载器，还支持浏览器插件版本，天下苦百度迅雷久矣........
+
+  - [IDM](https://pan.baidu.com/s/1KnHhyMaYgHZpbFE4twwTqg) 提取码：`1314`
+  - IDM支持百度云不限速下载助手，至于怎么用，tampermonkey插件yyds。
+
+
+
+- ### Adobe pdf
+
+  ​	功能最全的pdf编辑器，一键安装。
+
+  - [Adobe pdf](https://pan.baidu.com/s/1Fz0iAbfkJAFFD0ye20nvVA) 提取码：`1314`
+  - Adobe系列版本越高对电脑配置要求越高，所以全家桶都有点卡顿，但不影响正常使用。附[Adobe全家桶](https://pan.baidu.com/s/1SYvUb4AeAQ5R6Lq6xypQNw) 提取码：`1314`
+
+
+
+- ### Pycharm
+
+  ​	Python IDE推荐，我是JetBrains家一系列开发工具的忠实使用者，主要优点：与时俱进，界面优美，功能强大。你还在为同步GitHub仓库发愁吗，你还在为ssh链接服务器痛苦吗，Pycharm一键注册99年，从此告别Mobxterm。
+
+  - [Pycharm(windows版本)](https://pan.baidu.com/s/11syiJLEngQL3-8pzqshe7w) 提取码：`1314`
+  - 将注册机拖到pycharm里一键完成注册即可。
 
 
 
 ## 维护者
 
 [@HanLin](https://github.com/hanlin-cheng)
+
+> *关山难越，谁悲失路之人。萍水相逢，尽是他乡之客。*
 
 
