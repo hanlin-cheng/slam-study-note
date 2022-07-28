@@ -38,7 +38,7 @@ rosbag play outdoor.bag
 
 ### 3.修改激光雷达到imu标定参数
 
-![\# Extrinsics (lidar -\> IMU)  extrinsicTrans: [-0.0505898, -0.493581, 0.107833]  extrinsicTrans: [0.0, 0.0, 0.0]  extrinsicRot:  [-1, 0,0,  0,10  extrinsicRPY:  [0, 1,0,  1,0, o,  extrinsicRot:  [1,0, o,  o, 1,0,  0,0, 1]  extrinsicRPY: [1, 0, 0,  o, 1,0,  0,0, 1]  extrinsicRot: [0.733224, -0.679499, -0.025763,  0.679321, 0.733656, -0.01 6485,  0.0301027,-0.00541422, 0.999532]  extrinsicRPY: [0.733224, -0.679499, -0.025763,  0.679321, 0.733656, -0.01 6485,  0.0301027,-0.00541422, 0.999532] ](media/dbebbbdaf4c6e4278a0ac2e62db89a81.png)
+![[png]](media/dbebbbdaf4c6e4278a0ac2e62db89a81.png)
 
 
 
