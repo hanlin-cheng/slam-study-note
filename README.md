@@ -1,6 +1,6 @@
 # Study-note from HanLin
 
-内心os：我好笨，我记不住，虽然好麻烦好麻烦，但是我得记录下来...
+##### *内心os：我好笨，我记不住，虽然好麻烦好麻烦，但是我得做笔记记录下来...*
 
 
 
@@ -8,11 +8,13 @@
 
 1. 一些学习的[心得笔记](#心的笔记)
 
-3. 一些可能有用的[电子书籍](#电子书)（白嫖使我快乐）
+3. 一些可能有用的[电子书籍和学习资源](#Resource)（白嫖使我快乐）
 
 3. 一些[学习软件](#Software)的安装（还是白嫖^_^，仅供自身学习使用，请勿外传，亲测无病毒，放心使用！）
 
-4. 待更新......!^_^
+4. 一些[杂项](#Other)
+
+5. 待更新......!^_^
 
     
 
@@ -38,9 +40,20 @@
 
 
 
-## 电子书
+## Resource
+
+### Online Learning
+
+- 这个数字图书馆[*Z-Library*](https://zh.1lib.education/)可以搜索下载到各种各样的电子书，十分强大，而且免费，不过需要科学上网才能访问。
+- EbookFoundation开源了一个仓库[free-programming-books](https://github.com/EbookFoundation/free-programming-books)，在这里你可以找到许多编程类电子书籍和开源课程。
+- [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)这个仓库包含了许多经典计算机书籍： 编程语言(Java、C++、C、Python等等)、操作系统、计算机网络、系统架构、程序员数学、测试、前端开发、后台开发、网络编程、Linux使用及内核、求职面试、算法与数据结构 安卓、IOS、数据库、Redis等主流的编程学习书籍。
+- [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：HelloGitHub 每个月定期分享 GitHub 上有趣、入门级的开源项目。包含多种编程语言，有助于编程语言的学习。
+- [基本素养](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)：当然除了编程语言外，想要成长为一个合格的程序员还是需要具备许多其他的基本素养。
+- [数据结构](https://github.com/youngyangyang04/leetcode-master)：数据结构很重要哦，毕竟也要去面试嘛，还有一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
 
 
+
+### Electronic Book
 
 
 
@@ -97,6 +110,12 @@
 
   - [Pycharm(windows版本)](https://pan.baidu.com/s/11syiJLEngQL3-8pzqshe7w)	提取码：`1314`
   - 将注册机拖到pycharm里一键完成注册即可。
+
+
+
+## Other
+
+- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：学会科学上网是一个程序员的基本素养，国内的程序员论坛实在是不敢恭维。这里推荐一个，至于怎么用，请自己去学习吧^_^。
 
 
 
