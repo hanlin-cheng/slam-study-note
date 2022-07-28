@@ -16,7 +16,10 @@
 
 5. 待更新......!^_^
 
-    
+
+
+
+
 
 ## 心得笔记
 
@@ -40,20 +43,29 @@
 
 
 
+
+
 ## Resource
 
-### Online Learning
+#### Online Learning
 
-- 这个数字图书馆[*Z-Library*](https://zh.1lib.education/)可以搜索下载到各种各样的电子书，十分强大，而且免费，不过需要科学上网才能访问。
+- 文献检索：苦逼研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
+- [Paperswithcode](https://paperswithcode.com/)：作为AI工程师（ctrl c + ctrl v工程师）中的一员，这个网站可以找到许多附带开源代码的高质量论文。
+- [*Z-Library*](https://zh.1lib.education/)：这个数字图书馆可以搜索下载到各种各样的电子书，十分强大，而且免费，不过需要科学上网才能访问。
 - EbookFoundation开源了一个仓库[free-programming-books](https://github.com/EbookFoundation/free-programming-books)，在这里你可以找到许多编程类电子书籍和开源课程。
 - [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)这个仓库包含了许多经典计算机书籍： 编程语言(Java、C++、C、Python等等)、操作系统、计算机网络、系统架构、程序员数学、测试、前端开发、后台开发、网络编程、Linux使用及内核、求职面试、算法与数据结构 安卓、IOS、数据库、Redis等主流的编程学习书籍。
 - [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：HelloGitHub 每个月定期分享 GitHub 上有趣、入门级的开源项目。包含多种编程语言，有助于编程语言的学习。
 - [基本素养](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)：当然除了编程语言外，想要成长为一个合格的程序员还是需要具备许多其他的基本素养。
 - [数据结构](https://github.com/youngyangyang04/leetcode-master)：数据结构很重要哦，毕竟也要去面试嘛，还有一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
+- [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：这本书应该是不少linux开发者必读书籍吧。
+- [Linux命令大全](https://www.linuxcool.com/)：当然了鸟哥的私房菜实在是过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
+- [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程（手动狗头），怎么可以没有好用的模板呢。
 
 
 
-### Electronic Book
+#### Electronic Book
+
+
 
 
 
@@ -113,9 +125,13 @@
 
 
 
+
+
 ## Other
 
 - [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：学会科学上网是一个程序员的基本素养，国内的程序员论坛实在是不敢恭维。这里推荐一个，至于怎么用，请自己去学习吧^_^。
+
+
 
 
 
