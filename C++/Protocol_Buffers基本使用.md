@@ -143,7 +143,7 @@ message AddressBook {
 - 消息对象用 修饰符 `message` 修饰
 - 消息对象 含有 字段：消息对象（`Message`）里的 字段 = 结构化数据 里的成员变量
 
-![](media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS0wM2ViZDRkZjlkZTVkNTU1LnBuZw (1).png)
+![](media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS0wM2ViZDRkZjlkZTVkNTU1LnBuZw.png)
 
 ![](media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS1iNDg4YzYyMDk0NTE2ZTBjLnBuZw.png)
 
