@@ -151,7 +151,7 @@
 
 ## Other
 
-- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：学会科学上网是一个程序员的基本素养，国内的程序员论坛实在是不敢恭维。这里推荐一个，至于怎么用，请自己去学习吧^_^。
+- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：学会科学上网是一个程序员的基本能力，国内的程序员论坛实在是不敢恭维。这里推荐一个，至于怎么用，请自己去学习吧^_^。
 
 
 
