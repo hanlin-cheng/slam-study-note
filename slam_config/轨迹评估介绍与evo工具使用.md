@@ -133,11 +133,11 @@ $ ls ~/.local/bin
 
 在定量轨迹评估过程时，如图所示，首先估计的轨迹（蓝色）要和真值（黑色）对齐，然后再利用特性的误差度量计算对气候的轨迹估计误差。 
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage6.png)
+![](./media/GetImage6.png)
 
 下图左图是对齐前，右图是对齐后； 其中灰色线为对应的状态 
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage7.png)
+![](/./media/GetImage7.png)
 
 ### **2. 尺度变换** 
 
@@ -147,14 +147,14 @@ $ ls ~/.local/bin
 
 **尺度变换**： 相当于添加一个恒定的尺度变换 TsT_sTs到第二个相机，消除该歧义性；
 
- ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage8.png)
+ ![](./media/GetImage8.png)
 
 ### **3. 绝对轨迹误差和相对轨迹误差** 
 
 - 绝对轨迹误差计算的每一个点对（待评估轨迹的点与真值轨迹的点）的绝对值误差。 
 - 相对轨迹误差计算的是，针对两条轨迹，分别计算第 k时刻和 k+Δ时刻的误差，然后这两个误差间再计算绝对值误差。
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage9.png)
+![](./media/GetImage9.png)
 
 ### **4. 补充** 
 
@@ -177,11 +177,11 @@ $ ls ~/.local/bin
 
 - 出现如下的图示 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage3.png)
+  ![](./media/GetImage3.png)
 
   注：虚线为参考值；由于参数设置了xz，因此只显示轨迹在xz平面上投影；坐标表示活动轨迹范围； 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage4.png)
+  ![](./media/GetImage4.png)
 
   注： 以起始点作为基准点，针对每个pose点（横），按x/y/z三个方向的分量，描述其距离原点距离（纵）
 
@@ -202,7 +202,7 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
 
   - 绝对轨迹误差信息如下图：
 
-    ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage10.png)
+    ![](./media/GetImage10.png)
 
     注：针对所有位姿点描述绝对误差大小，并与均方根误差、中位值、均值、标准差等直观比较；std覆盖区域为 [mean−std, mean+std], 反应组内个体间离散程度； 
 
@@ -210,7 +210,7 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
 
   - 轨迹直观误差信息如下图
 
-    ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage11.png)
+    ![](./media/GetImage11.png)
 
     注： 针对整个轨迹，使用颜色显示偏差的大小，按蓝-绿-红渐变色偏差依次变大；放大后可更清楚的查看局部轨迹差； 
     本文后面章节会详细讲解 evo_ape 的每一个命令参数。 
@@ -220,47 +220,43 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
   Umeyama算法用于做点云匹配对齐，因为点集合之间的对应关系已知，它可以计算出两组点云数据间的旋转+平移变换矩阵和相似变换矩阵； 
   原理就是通过点对之间距离平方和的最小二乘误差计算出T，和ICP的损失函数是类似的。 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage12.png)
+  ![](./media/GetImage12.png)
 
   最后计算得到:
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage13.png)
+  ![](./media/GetImage13.png)
 
   此外， Eigen 库也封装了函数 Eigen::umeyama（），可直接传入两个点云集合调用求解. 
 
   SE(3)与Sim(3)，对于双目SLAM和RGB-D SLAM，尺度统一，因此需要通过最小二乘计算估计位姿到真实位姿的转换矩阵 S∈SE(3); 
 
-   
-
   对于单目相机，尺度不确定性，因此需要计算从估计位姿到真实位姿的相似变换矩阵 S∈Sim(3)。 默认为SE(3)，加 -s 参数使用 Sim(3); 
 
-   
-
   补充说明：可以通过Umeyama的文献获取更进一步的信息： Least-Squares Estimation of Transformation Parameters Between Two Point Patterns 
-  注：终端输出表示的是用 Umeyama 计算得到的相似矩阵选装、平移和尺度变换的结果。
-
-  ```
+注：终端输出表示的是用 Umeyama 计算得到的相似矩阵选装、平移和尺度变换的结果。
+  
+```
    Rotation of alignment: 
     [[ 0.99972834 -0.01321112  0.01920198] 
-     [ 0.01357949  0.99972379 -0.01918176] 
+   [ 0.01357949  0.99972379 -0.01918176] 
      [-0.01894327  0.0194373   0.9996316 ]] 
     Translation of alignment: 
     [1.18538132 2.10165699 2.31548455] 
     Scale correction: 1.0045265524039808 
   ```
-
+  
 - 绝对轨迹误差（ATE）计算公式 
 
   为什要计算绝对轨迹误差？ 绝对轨迹误差实际上在计算什么？ 
   对于视觉SLAM系统， 估计轨迹的全局一致性是重要度量，如何评估全局一致性？ 就是通过比较被估计值和真值轨迹之间的绝对距离来得到。 
   首先先将两条轨迹对齐。 记P1:n代表待估计的轨迹，Q1:n代表真值轨迹， 则时间戳 iii处的绝对估计误差为： 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage14.png)
+  ![](./media/GetImage14.png)
 
   可以这么理解公式：对 A=[R∣t]∈SE(3), 有A−1A=[I∣0]； 那么这里的 SPi 是估计的 Qi， 计算 Qi−1SPi可以直观得到两条轨迹的差值。 
   则针对所有时刻定义平移分量的 均方根误差(RMSE)、和方差（SSE)：
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage15.png)
+  ![](./media/GetImage15.png)
 
   ![SSE : ](data:image/png;base64,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)
 
@@ -314,11 +310,11 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
   相对位姿误差测量了轨迹在一个固定的时间区间 Δ\DeltaΔ内的局部准确度。 因此，相对位姿误差对应轨迹的漂移。 
   先定义时间步 iii处的相对位姿误差如下，可知相对位姿误差计算的是相隔固定时间差 Δ 两帧位姿差：
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage16.png)
+  ![](./media/GetImage16.png)
 
   根据上式，对于一个有n个相机位姿的序列中，我们获得 m=n−Δm=n-\Deltam=n−Δ个独立的沿着序列的相对位姿误差。则可以定义平移分量的的所有时刻的均方根误差RMSE: 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage17.png)
+  ![](./media/GetImage17.png)
 
   可以这么理解公式：对 A=[R∣t]∈SE(3), 有 A−1A=[I∣0]. 
   上式中的 (Pi−1Pi+Δ)(P_i^{-1}P_{i+\Delta}) (Pi−1Pi+Δ)是估计的 Qi−1Qi+ΔQ_i^{-1}Q_{i+\Delta}Qi−1Qi+Δ，计算 (Qi−1Qi+Δ)−1(Pi−1Pi+Δ)(Q_i^{-1}Q_{i+\Delta})^{-1} (P_i^{-1}P_{i+\Delta})(Qi−1Qi+Δ)−1(Pi−1Pi+Δ)可以直观的得到两条轨迹的差值； 
@@ -337,7 +333,7 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
 
   绝对轨迹误差对比：
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage18.png)
+  ![](./media/GetImage18.png)
 
 ## **第五部分： evo 命令参数详解** 
 
@@ -436,11 +432,10 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
   evo_traj bag ROS_example.bag ORB-SLAM S-PTAM --ref groundtruth -s 
   ```
 
-  
-
 - 参数说明：  
-  - -a ：即 -align, 轨迹对齐的选项参数， 如 -a/--align, -s/--correct_scale, --n_to_align 等等，与evo_ape 相同，详情可参见前一章节 evo_ape 中轨迹说明中的参数解释。 
-
+  
+- -a ：即 -align, 轨迹对齐的选项参数， 如 -a/--align, -s/--correct_scale, --n_to_align 等等，与evo_ape 相同，详情可参见前一章节 evo_ape 中轨迹说明中的参数解释。 
+  
 - 常用命令示例3： 转换格式 
 
   ```
@@ -448,8 +443,9 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
   ```
 
 - 参数说明： 
-  - --save_as_tum : 指定目标数据集格式为 tum 
-
+  
+- --save_as_tum : 指定目标数据集格式为 tum 
+  
 - 数据集格式转换表如下： 
 
 | **源数据集** | **ROS Bag**       | **KITTI**       | **TUM**           |
@@ -465,11 +461,11 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
 单目相机会存在尺度的不确定性，evo_traj 支持使用-s（或 --correct_scale）参数进行Sim(3)上的对齐（旋转、平移与尺度缩放）。 
 例子1： 下图从左到右三幅图中两条曲线的结果分别是：未对齐、SE(3)对齐、尺度缩放 
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage19.png)
+![](./media/GetImage19.png)
 
 例子2： 不同的对齐命令效果图，分别是未对齐、SE(3)对齐、Sim(3)对齐、尺度缩放 
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage20.png)
+![](./media/GetImage20.png)
 
 ### **5.evo_res 命令详解** 
 
@@ -484,6 +480,7 @@ evo_ape kitti KITTI_00_gt.txt KITTI_00_SPTAM.txt -vas  --plot --plot_mode xz --s
   ```
 
 - 参数说明： 
+  
   - -v : 详细模式展示信息 
 
 ### **6.evo_config 命令详解** 
@@ -640,7 +637,7 @@ plt.show()
 
 执行后如图所示：
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage21.png)
+![](./media/GetImage21.png)
 
 ### **例子2：计算APE** 
 
@@ -750,7 +747,7 @@ mean: 0.0074917768702161495
 
 - 数据格式为 ： timestamp tx ty tz qx qy qz qw 每行8个元素， 结尾没有空格， 时间戳以秒为单位， 精确到小数点后9位 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage22.png)
+  ![](./media/GetImage22.png)
 
 - evo_ape 计算轨迹绝对误差的例子
 
@@ -771,7 +768,7 @@ mean: 0.0074917768702161495
 
 - KITTI数据集格式： r11 r12 r13 tx r21 r22 r23 ty r31 r32 r33 tz 存储变换矩阵的前三行,每行12元素，空格隔开, 无时间戳 
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage23.png)
+  ![](./media/GetImage23.png)
 
 - evo_ape 计算轨迹绝对误差, evo_traj 绘制多条曲线轨迹 
 
@@ -793,7 +790,7 @@ mean: 0.0074917768702161495
 
 - EUROC数据格式为：timestamp,px,py,pz,qw,qx,qy,qz,vx,vy,vz,bwx,bwy,bwz,bax,bay,baz 每行17个元素，逗号隔开，时间以纳秒为单位, 无小数
 
-  ![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage24.png)
+  ![](./media/GetImage24.png)
 
 - evo_ape 计算轨迹绝对误差 
 
