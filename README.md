@@ -24,6 +24,7 @@
 ## 心得笔记
 
 - ### SLAM理论基础
+
 - ### [C++相关知识](./C++)
   
   - [常用函数](./C++/常用函数.md)
@@ -41,18 +42,38 @@
   - [构造函数的调用时机](./C++/构造函数的调用时机.md)
   - [函数指针的定义方式](./C++/函数指针的定义方式.md)
   - [计算时间](./C++/计算时间.md)
-  - [类知识点](./C++/类知识点.md)
+  - [类知识点](./C++/类 知识点.md)
   - [内联函数](./C++/内联函数.md)
   - [数据类型字节数](./C++/数据类型字节数.md)
   - [protobuf基本使用](./C++/Protocol_Buffers基本使用.md)
+  
 - ### SLAM配置文档
+
+  - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
+  - [xavier装机文档](slam_config/xavier装机文档.md)
+  - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
+  - [Rosdep_update_falied](slam_config/Rosdep_update_failed.md)
+  - [安装LIO-SAM](slam_config/安装LIO-SAM.md)
+  - [安装orb-slam2](slam_config/安装Orb-slam2.md)
+  - [安装Rtabmap](slam_config/安装Rtabmap.md)
+  - [安装VINS-Fusion](slam_config/安装VINS-Fusion.md)
+  - [安装ZED以及ros驱动](slam_config/安装ZED以及ros驱动.md)
+  - [轨迹评估介绍与evo工具使用](slam_config/轨迹评估介绍与evo工具使用.md)
+  - [基于ROS的opencv安装与卸载](slam_config/基于ROS的opencv安装与卸载.md)
+  - [激光+imu标定(lidar_align)](slam_config/激光+imu标定(lidar_align​).pdf)
+  - [激光+imu标定(lidar_imu_calib)](slam_config/激光雷达与IMU联合标定(lidar_IMU_calib).md)
+  - [相机+imu标定](slam_config/相机+imu标定.pdf)
+  - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
+
 - ### Linux
+
 - ### [QT编程](./QT)
   
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
   - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
+  
 - ### 一些怎么也记不全的[command](./command/)指令
   
   - [Git_Command](./command/Git_Command.md)
@@ -106,7 +127,8 @@
 
   ​	最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
 
-  - [XMind](https://pan.baidu.com/s/1oFZS5czuOF2hEbw1LfxgIw)	提取码：`1314`
+  - [Windows版本](https://pan.baidu.com/s/1oFZS5czuOF2hEbw1LfxgIw)	提取码：`1314`
+  - [Linux版本](https://pan.baidu.com/s/1eiOgY8p2Ytlt8AaEUIHelQ)	提取码：`1314`
   - 流氓软件默认安装c盘，安装好后将破解包里的app.asar文件复制替换到Program Files/XMind/resources目录下即可。	
 
 
