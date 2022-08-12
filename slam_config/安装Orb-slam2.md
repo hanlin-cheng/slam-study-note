@@ -50,7 +50,7 @@ source ~/.bashrc
 
 在ORBSLAM2/Examples/ROS/ORBSLAM2下的Cmakelists.txt中添加一行，-lboost_system
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage2.png)
+![](./media/GetImage2.png)
 
 
 

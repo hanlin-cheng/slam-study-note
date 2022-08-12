@@ -104,14 +104,10 @@ source ./devel/setup.bash
 
 3.不要旋转过/移动过猛 
 
-  
-
 ```
 rosbag -record -o out /velodyne_packets/你的IMU数据话题 
 # 注意话题名要匹配。 
 ```
-
-  
 
 ## **运行** 
 
@@ -125,13 +121,9 @@ rosbag -record -o out /velodyne_packets/你的IMU数据话题
 
 点击了初始化（Initialization）及下面的三个按钮，后续就一直是点击下面的按钮 
 
-  
-
 ## **结果** 
 
 标定结果是四元数，将四元数转换为旋转矩阵。放入了LIOSAM的param.yaml文件里。再就行实际效果测试。 
-
-  
 
 ## **问题** 
 

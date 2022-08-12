@@ -36,7 +36,7 @@ finished！！
 git clone https://github.com/ros/rosdistro.git 
 ```
 
-如果git clone 速度较慢，可以直接拷贝https://github.com/ros/rosdistro.git到网页下载，速度提高记录rosdistro存放地址，例如/home/gec/rosdistro 
+如果git clone 速度较慢，可以直接拷贝[https://github.com/ros/rosdistro.git](https://github.com/ros/rosdistro.git) 到网页下载，速度提高记录rosdistro存放地址，例如/home/gec/rosdistro 
 
 如果是自己的改成/home/user/rosdistro，其中user表示用户名 
 
@@ -51,7 +51,7 @@ sudo gedit rep3.py
 
 将REP3_TARGETS_URL = ‘https://raw.githubusercontent.com/ros/rosdistro/master/releases/targets.yaml’ 
 
-替换成 REP3_TARGETS_URL = '[file:///home/gec/rosdistro/releases/targets.yaml](file:///home/gec/rosdistro/releases/targets.yaml)' 
+替换成 REP3_TARGETS_URL = 'file:///home/gec/rosdistro/releases/targets.yaml' 
 
 替换后的/home/gec 即为第一步clone内容的存放地址 
 
@@ -66,7 +66,7 @@ sudo gedit __init__.py
 
 将原来文件中的 DEFAULT_INDEX_URL = ‘https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml’ 
 
-替换成 DEFAULT_INDEX_URL =  '[file:///home/gec/rosdistro/index-v4.yaml](file:///home/gec/rosdistro/index-v4.yaml)' 
+替换成 DEFAULT_INDEX_URL =  'file:///home/gec/rosdistro/index-v4.yaml' 
 
 替换后的/home/gec 即为第一步clone内容的存放地址 
 
@@ -115,7 +115,7 @@ gbpdistro file:///home/gec/rosdistro/releases/fuerte.yaml fuerte
 # newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead  
 ```
 
-注意的是yaml [file://](file:///) 表示固定格式/home...表示文件目录，所以是yaml [file:///](file:///) 
+注意的是yaml file:// 表示固定格式/home...表示文件目录，所以是yaml file:/// 
 
  
 

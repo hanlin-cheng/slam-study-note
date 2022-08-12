@@ -110,7 +110,7 @@ sudo gedit /opt/ros/melodic/share/cv_bridge/cmake/cv_bridgeConfig.cmake
 
 \# 更改三个地方的路径地址 
 
-![](/home/hanlin/git-repository/slam-study-note/slam_config/media/GetImage1.png)
+![](./media/GetImage1.png)
 
 至此opencv安装与配置完成！ 
 
