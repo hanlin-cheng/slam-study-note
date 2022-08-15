@@ -23,7 +23,9 @@
 
 ## 心得笔记
 
-- ### SLAM理论基础
+- ### [SLAM Theory](./slam_theory/)
+
+  - [匈牙利算法](./slam_theory/匈牙利算法.md)
 
 - ### [C++相关知识](./C++)
   
@@ -47,7 +49,7 @@
   - [数据类型字节数](./C++/数据类型字节数.md)
   - [protobuf基本使用](./C++/Protocol_Buffers基本使用.md)
   
-- ### SLAM配置文档
+- ### [SLAM配置文档](./slam_config/)
 
   - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
   - [xavier装机文档](slam_config/xavier装机文档.md)
