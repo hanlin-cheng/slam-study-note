@@ -85,4 +85,4 @@ target_link_libraries(opencv_test ${OpenCV_LIBS})
 
 可以看到在执行find_package(OpenCV 3 REQUIRED)命令后，CMake找到了我们安装的位于/usr/local下的OpenCV库，并设置了CMake变量OpenCV_DIR为OpenCV库的配置文件所在路径，正是通过载入这个路径下的OpenCVConfig.cmake配置文件才能配置好OpenCV库，然后在OpenCVConfig.cmake配置文件中定义了变量OpenCV_INCLUDE_DIRS为OpenCV库头文件包含路径，这样我们才能才在代码中使用#include <opencv2/opencv.hpp>而不会出现编译错误，同时定义了变量OpenCV_LIBS为OpenCV链接库路径，这样我们才能正确链接到OpenCV中的库文件，而不会出现类似未定义的引用这样的链接错误。 
 
-![](/home/hanlin/git-repository/slam-study-note/C++/media/GetImage%20(1).png)
+![](/home/hanlin/git-repository/slam-study-note/C++/media/GetImage (1).png)
