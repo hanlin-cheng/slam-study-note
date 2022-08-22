@@ -26,6 +26,7 @@
 - ### [SLAM Theory](./slam_theory/)
 
   - [匈牙利算法](./slam_theory/匈牙利算法.md)
+  - 待上传
 
 - ### [C++相关知识](./C++)
   
@@ -48,6 +49,10 @@
   - [内联函数](./C++/内联函数.md)
   - [数据类型字节数](./C++/数据类型字节数.md)
   - [protobuf基本使用](./C++/Protocol_Buffers基本使用.md)
+  - [ROS指令](./C++/ROS指令.md)
+  - [CMakelists基础指令](./C++/CMakelists基础指令.md)
+  - [EigenGeometry](./C++/EigenGeometry.md)
+  - [find_package指令](./C++/Find_package.md)
   
 - ### [SLAM配置文档](./slam_config/)
 
@@ -66,8 +71,11 @@
   - [激光+imu标定(lidar_imu_calib)](slam_config/激光雷达与IMU联合标定(lidar_IMU_calib).md)
   - [相机+imu标定](slam_config/相机+imu标定.pdf)
   - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
+  - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
 
 - ### Linux
+
+  - 待上传
 
 - ### [QT编程](./QT)
   
@@ -110,7 +118,7 @@
 
 #### Electronic Book
 
-
+待上传。。。
 
 
 
