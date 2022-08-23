@@ -26,6 +26,7 @@
 - ### [SLAM Theory](./slam_theory/)
 
   - [匈牙利算法](./slam_theory/匈牙利算法.md)
+  - [相机参数DKPR的解释](./slam_theory/相机参数DKPR的解释.md)
   - 待上传
 
 - ### [C++相关知识](./C++)
