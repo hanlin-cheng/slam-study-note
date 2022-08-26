@@ -27,6 +27,12 @@
 
   - [匈牙利算法](./slam_theory/匈牙利算法.md)
   - [相机参数DKPR的解释](./slam_theory/相机参数DKPR的解释.md)
+  - [多维高斯分布](./slam_theory/多维高斯分布.md)
+  - [正态分布](./slam_theory/正态分布.md)
+  - [灰度质心法](./slam_theory/灰度质心法.md)
+  - [雅可比矩阵和海塞矩阵](./slam_theory/雅克比矩阵和海塞矩阵.md)
+  - [高斯牛顿法](./slam_theory/高斯牛顿法.md)
+  - [归一化与标准化](./slam_theory/归一化与标准化.md)
   - 待上传
 
 - ### [C++相关知识](./C++)
