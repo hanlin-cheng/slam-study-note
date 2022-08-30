@@ -41,6 +41,7 @@
   - [向量积(矢积)与数量积(标积)的区别](./slam_theory/向量积(矢积)与数量积(标积)的区别.md)
   - [协方差矩阵](./slam_theory/协方差矩阵.md)
   - [重投影误差](./slam_theory/Reprojection_error.md)
+  - [多线激光雷达与组合惯导外参标定原理](./slam_theory/lidar_calibration_cn.pdf)
   - 待上传
 
 - ### [C++相关知识](./C++)
