@@ -71,6 +71,7 @@
   - [Eigen几何模块的引入](./C++/EigenGeometry.md)
   - [find_package指令](./C++/Find_package.md)
   - [gflags使用](./C++/gflags使用.md)
+  - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
   
 - ### [SLAM配置文档](./slam_config/)
 
