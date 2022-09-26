@@ -72,6 +72,8 @@
   - [find_package指令](./C++/Find_package.md)
   - [gflags使用](./C++/gflags使用.md)
   - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
+  - [矩阵微分](./slam_theory/矩阵微分-清华.pdf)
+  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵，基础矩阵，自由度及其解法.md)
   
 - ### [SLAM配置文档](./slam_config/)
 
