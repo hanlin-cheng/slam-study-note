@@ -139,7 +139,22 @@
 
 #### Electronic Book
 
-待上传。。。
+- [视觉SLAM](https://pan.baidu.com/s/1yFiZ_fqGnKi7ExvMyvChgQ)	提取码：`1314`
+- [深度学习](https://pan.baidu.com/s/12Y30nfWqwDqeXz6sCvZgTw)	提取码：`1314`
+- [C++](https://pan.baidu.com/s/1DsBbgs2GZlxJel5cXpIOYQ)	提取码：`1314`
+- [Linux](https://pan.baidu.com/s/1f_jGoBzd1ZihH_OhGTC82w)	提取码：`1314`
+- [Python](https://pan.baidu.com/s/1m7_FToasf8VPln4-8jilLw)	提取码：`1314`
+- [操作系统](https://pan.baidu.com/s/17eCDh-8gxEpyBoNORodYaA)	提取码：`1314`
+- [分布式系统](https://pan.baidu.com/s/1GaSVK03EPcnQdH4BhcxZZA)	提取码：`1314`
+- [后端组件](https://pan.baidu.com/s/1drB61wzhg7NG5L3KhOmrXw)	提取码：`1314`
+- [计算机网络](https://pan.baidu.com/s/1qBYrPLhRpF_dhPXOQBRNZQ)	提取码：`1314`
+- [计算机系统知识](https://pan.baidu.com/s/1I54KS6usF89NhRgagSGjeQ)	提取码：`1314`
+- [前端&全栈](https://pan.baidu.com/s/1pKy4BJKc7SpRGq0Js-0t_A)	提取码：`1314`
+- [数据库](https://pan.baidu.com/s/1eWlvbY0MrqRF2fI6p7kb4g)	提取码：`1314`
+- [算法和数据结构](https://pan.baidu.com/s/1Xl8U-exf7lb2b9ss593_2g)	提取码：`1314`
+- [网络编程&服务器开发](https://pan.baidu.com/s/1diwvkJGb2CFkonj40yvtew)	提取码：`1314`
+- [面经](https://pan.baidu.com/s/1WGa1TRnHh3m1wmV4F7EkGA)	提取码：`1314`
+- [面试准备](https://pan.baidu.com/s/1FCYJ-TDRfKKkHlQWSgmL3g)	提取码：`1314`
 
 
 
