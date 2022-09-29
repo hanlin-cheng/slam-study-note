@@ -42,6 +42,7 @@
   - [协方差矩阵](./slam_theory/协方差矩阵.md)
   - [重投影误差](./slam_theory/重投影误差.md)
   - [多线激光雷达与组合惯导外参标定原理](./slam_theory/lidar_calibration_cn.pdf)
+  - [图优化g2o](./slam_theory/图优化g2o.pdf)
   - 待上传
 
 - ### [C++相关知识](./C++)
