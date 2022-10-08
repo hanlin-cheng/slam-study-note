@@ -206,19 +206,19 @@ $ git remote rm origin
 
 ### 查看分支
 
-```
+```shell
 git branch
 ```
 
 ### 创建分支
 
-```
+```shell
 git branch <name>
 ```
 
 ### 切换分支
 
-```
+```shell
 git checkout <name> 
 or
 git switch <name>
@@ -226,7 +226,7 @@ git switch <name>
 
 ### 创建+切换分支
 
-```
+```shell
 git checkout -b <name>
 or
 git switch -c <name>
@@ -234,13 +234,13 @@ git switch -c <name>
 
 ### 合并某分支到当前分支
 
-```
+```shell
 git merge <name>
 ```
 
 ### 删除分支
 
-```
+```shell
 git branch -d <name>
 ```
 
@@ -248,7 +248,122 @@ git branch -d <name>
 
 ### 用带参数的`git log`也可以看到分支的合并情况
 
-```
+```shell
 git log --graph --pretty=oneline --abbrev-commit
+```
+
+
+
+## 6.多人协作
+
+### 查看远程库信息
+
+```shell
+git remote -v
+```
+
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+
+### 从本地推送分支
+
+```shell
+git push origin branch-name
+```
+
+如果推送失败,先用`git pull`抓取远程的新提交
+
+### 在本地创建和远程分支对应的分支
+
+```shell
+git checkout -b branch-name origin/branch-name
+```
+
+本地和远程分支的名称最好一致
+
+### 建立本地分支和远程分支的关联
+
+```shell
+git branch --set-upstream branch-name origin/branch-name
+```
+
+### 多人协作的工作模式
+
+1. 首先，可以试图用`git push origin <branch-name>`推送自己的修改；
+2. 如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；
+3. 如果合并有冲突，则解决冲突，并在本地提交；
+4. 没有冲突或者解决掉冲突后，再用`git push origin <branch-name>`推送就能成功！
+
+如果`git pull`提示`no tracking information`，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream-to <branch-name> origin/<branch-name>`
+
+
+
+## 7.标签管理
+
+### 创建标签
+
+```shell
+$ git tag <tagname>
+```
+
+默认标签是打在最新提交的commit上的,也可以指定一个commit id
+
+```shell
+$ git tag v0.9 f52c633
+```
+
+### 创建带有说明的标签
+
+用`-a`指定标签名，`-m`指定说明文字
+
+```shell
+$ git tag -a v0.1 -m "version 0.1 released" 1094adb
+```
+
+### 查看所有标签
+
+```shell
+$ git tag
+v1.0
+```
+
+### 查看标签信息
+
+标签不是按时间顺序列出，而是按字母排序的。`git show <tagname>`
+
+```shell
+$ git show v0.9
+commit f52c63349bc3c1593499807e5c8e972b82c8f286 (tag: v0.9)
+Author: Michael Liao <askxuefeng@gmail.com>
+Date:   Fri May 18 21:56:54 2018 +0800
+
+    add merge
+
+diff --git a/readme.txt b/readme.txt
+...
+```
+
+### 删除标签
+
+```shell
+$ git tag -d <tagname>
+```
+
+### 推送标签到远程
+
+```shell
+$ git push origin <tagname>
+```
+
+一次性推送全部尚未推送到远程的本地标签
+
+```shell
+$ git push origin --tags
+```
+
+### 删除远程标签
+
+```shell
+$ git tag -d <tagname>															 //删除一个本地标签
+$ git push origin :refs/tags/<tagname>							//删除一个远程标签
 ```
 
