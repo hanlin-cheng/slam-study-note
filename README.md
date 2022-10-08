@@ -43,6 +43,8 @@
   - [重投影误差](./slam_theory/重投影误差.md)
   - [多线激光雷达与组合惯导外参标定原理](./slam_theory/lidar_calibration_cn.pdf)
   - [图优化g2o](./slam_theory/图优化g2o.pdf)
+  - [矩阵微分](./slam_theory/矩阵微分-清华.pdf)
+  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵，基础矩阵，自由度及其解法.md)
   - 待上传
 
 - ### [C++相关知识](./C++)
@@ -73,8 +75,7 @@
   - [find_package指令](./C++/Find_package.md)
   - [gflags使用](./C++/gflags使用.md)
   - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
-  - [矩阵微分](./slam_theory/矩阵微分-清华.pdf)
-  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵，基础矩阵，自由度及其解法.md)
+  - [左值与右值](./C++/左值与右值.md)
   
 - ### [SLAM配置文档](./slam_config/)
 
