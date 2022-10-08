@@ -125,7 +125,7 @@
 
 #### Online Learning
 
-- 文献检索：苦逼研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
+- 文献检索：研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
 - [Paperswithcode](https://paperswithcode.com/)：作为AI工程师（ctrl c + ctrl v工程师）中的一员，这个网站可以找到许多附带开源代码的高质量论文。
 - [*Z-Library*](https://zh.1lib.education/)：这个数字图书馆可以搜索下载到各种各样的电子书，十分强大，而且免费，不过需要科学上网才能访问。
 - EbookFoundation开源了一个仓库[free-programming-books](https://github.com/EbookFoundation/free-programming-books)，在这里你可以找到许多编程类电子书籍和开源课程。
