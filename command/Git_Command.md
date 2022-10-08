@@ -98,6 +98,8 @@ $ git reset HEAD <file>
 $ git checkout -- <file>
 ```
 
+`git reset`命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用`HEAD`时，表示最新的版本。
+
 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考[版本间穿梭](#版本间穿梭)一节，不过前提是没有推送到远程库。
 
 
@@ -197,4 +199,56 @@ $ git remote rm origin
 ```
 
 此处的“删除”其实是解除了本地和远程的绑定关系，并不是物理上删除了远程库。远程库本身并没有任何改动。要真正删除远程库，需要登录到GitHub，在后台页面找到删除按钮再删除。
+
+
+
+## 5.分支管理
+
+### 查看分支
+
+```
+git branch
+```
+
+### 创建分支
+
+```
+git branch <name>
+```
+
+### 切换分支
+
+```
+git checkout <name> 
+or
+git switch <name>
+```
+
+### 创建+切换分支
+
+```
+git checkout -b <name>
+or
+git switch -c <name>
+```
+
+### 合并某分支到当前分支
+
+```
+git merge <name>
+```
+
+### 删除分支
+
+```
+git branch -d <name>
+```
+
+可以通过`git branch -D <name>`强行删除
+
+### 用带参数的`git log`也可以看到分支的合并情况
+
+```
+git log --graph --pretty=oneline --abbrev-commit
+```
 
