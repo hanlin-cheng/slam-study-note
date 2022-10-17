@@ -53,7 +53,7 @@
 
 1. 通过param 标签设置参数的值
 
-   ```
+   ```launch
    <launch>
    	<param name="publish_frequency" value="20.0"/>
    </launch>
@@ -62,7 +62,7 @@
 2. 通过加载yaml文件来设置param：
    下面这句指令也就是执行了 load 命令来实现装载文件的命令。
 
-   ```
+   ```launch
    <launch>
    	<!-- 把关节控制的配置信息读取到参数服务器 -->
    	<rosparam file="$(find robot_sim_demo)/param/xbot-u_control.yaml" command="load"/>
@@ -72,7 +72,7 @@
 3. 加载URDF 文件
    下面这句指令是 xacro.py 执行了 robot.xacro 之后输出的结果作为值赋给 robot_description。
 
-   ```
+   ```launch
    <launch>
    	<!-- URDF and TF support -->
      <param name="robot_description" command="$(find xacro)/xacro.py $(find robot_sim_demo)/urdf/robot.xacro" />
@@ -81,7 +81,7 @@
 
 **launch 文件操作param 示例：**
 
-```
+```launch
 <launch>
 	<!--param参数配置-->
 	<param name="param1" value="1" />
