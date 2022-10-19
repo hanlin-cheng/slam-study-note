@@ -9,7 +9,7 @@
 
 节点中通过ros::Publisher发布了base/joint_states，head/joint_states，torso/joint_states，想要把发布出来的话题重映射到joint_states上，可以这么写：
 
-```
+```launch
 <?xml version="1.0"?>
 <launch>
  
@@ -31,7 +31,7 @@ rostopic list一下可以看到话题：
 
 节点中通过Ros::Subscriber**想要**接收/image话题，但是实际摄像头发布的话题是/kinect2/hd/image_color，所以需要这样处理：
 
-```
+```launch
 <?xml version="1.0"?>
 <launch>
    <node name="robot_visual" pkg="dhrobot_demo" type="robot_visual" >
