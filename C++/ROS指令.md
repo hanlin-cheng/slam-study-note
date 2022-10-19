@@ -184,3 +184,12 @@ rosinstall - 安装ROS附加功能包。
 rosdep [选项] - 安装该功能包的依赖性文件（check, install, init, update）。 
 
 roslocate [选项] [功能包名称] - ROS功能包信息相关命令（可用的选项是info, vcs, type, uri和repo等）。 
+
+## 常用的一些指令
+
+| 指令                                  |        含义        |
+| :------------------------------------ | :----------------: |
+| rosrun map_server map_saver           | rviz保存生成的地图 |
+| rosrun map_server map_server map.yaml | rviz加载生成的地图 |
+| rostopic echo <topic> --noarr         |  详细显示话题信息  |
+
