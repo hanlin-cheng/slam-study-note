@@ -2,7 +2,18 @@
 
 [参考教程]: https://www.liaoxuefeng.com/wiki/896043488029600
 
-
+> `git clone` 默认是克隆`Head`指向的`master`分支，如果是多分支，我们可以单个克隆分支项目。
+>
+> 1.只克隆单分支（非master）：
+>
+>  	git clone -b 分支名 https://xxx.git
+>
+> 2.克隆所有分支（多分支）
+>
+>  	cd project  //切换到指定目录
+>  	git clone https://xxx.git //克隆项目（默认master分支）
+>
+> ​	git branch -a  //列出远程跟踪及本地分支
 
 ## 1.安装并设置地址
 
