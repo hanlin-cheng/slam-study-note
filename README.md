@@ -117,6 +117,7 @@
 - ### 一些怎么也记不全的[command](./command/)指令
   
   - [Git_Command](./command/Git_Command.md)
+  - [Git中submodule的使用](./command/Git中submodule的使用.md)
   - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
   - [LIO-SAM运行](./command/LIO-SAM运行.md)
   - [Orb-slam2运行](./command/Orb-slam2运行.md)
