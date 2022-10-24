@@ -294,7 +294,7 @@ git checkout -b branch-name origin/branch-name
 ### 建立本地分支和远程分支的关联
 
 ```shell
-git branch --set-upstream branch-name origin/branch-name
+git branch --set-upstream-to <branch-name> origin/<branch-name>
 ```
 
 ### 多人协作的工作模式
