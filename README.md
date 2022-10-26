@@ -226,6 +226,13 @@
 
 
 
+- ### Office全家桶
+
+  ​	office是目前最常用的一类办公软件，使用它可以解决日常生活和工作中遇到的很多问题。里面包含了常用的办公组件而其中就包含了Word、Excel、PowerPoint、Access等。熟练掌握offic的操作技巧是对计算机工作者的基本要求,也可以帮助你提高工作效率出色的完成企业办公需求!新版的Office与之前的老版本相比，不仅是界面上有所改进，同时在功能上也带来一些新特性!
+
+  - [Office全家桶](https://pan.baidu.com/s/1LJo45XDnsSltjNCaiWT0MQ) 提取码：`1314`
+  - [破解教程](./something_else/获取Office2021安装包及相关激活工具.md)
+
 
 
 ## Other
