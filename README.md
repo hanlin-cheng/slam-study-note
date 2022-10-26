@@ -239,7 +239,6 @@
 
 - [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：一个程序员咋能不会科学上网捏，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的，至于怎么用，请自己去学习吧^_^。
 - 一些拥有slam相关业务并且表现不错的[公司](./something_else/Company.md)
-- 打工人的[坎坷之路](./something_else/秋招ing.md)
 
 
 
