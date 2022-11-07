@@ -2,7 +2,7 @@
 
 ### Twirling
 
-##### **brief：**防止机器人运动过程中旋转过大，惩罚角速度
+##### brief：防止机器人运动过程中旋转过大，惩罚角速度
 
 ```c++
 double TwirlingCritic::scoreTrajectory(const dwb_msgs::msg::Trajectory2D & traj)
@@ -22,7 +22,7 @@ double TwirlingCritic::scoreTrajectory(const dwb_msgs::msg::Trajectory2D & traj)
 
 ### RotateToGoal
 
-##### **brief：**当机器人足够接近目标，才允许机器人旋转到目标方向
+##### brief：当机器人足够接近目标，才允许机器人旋转到目标方向
 
 存在有三个不同的阶段。
 
@@ -34,7 +34,7 @@ double TwirlingCritic::scoreTrajectory(const dwb_msgs::msg::Trajectory2D & traj)
 
 ### PreferForward
 
-##### **brief：**向前移动的轨迹得分会更高
+##### brief：向前移动的轨迹得分会更高
 
 有三种不同的评分条件：
 
@@ -60,7 +60,7 @@ if (traj.velocity.x < 0.0) {
 
 ## BaseObstacleCritic
 
-##### **brief：**基于路径经过cosmap的位置对轨迹进行评分
+##### brief：基于路径经过cosmap的位置对轨迹进行评分
 
 ```c++
 double score = 0.0;
@@ -72,30 +72,30 @@ score = static_cast<double>(sum_scores_) * score + pose_score;
 
 ## ObstacleFootprintCritic
 
-##### **brief：**机器人足迹上的所有点都没有接触到costmap中的障碍物来对轨迹进行评分，防压脚
+##### brief：机器人足迹上的所有点都没有接触到costmap中的障碍物来对轨迹进行评分，防压脚
 
 检查足迹的边界是否有与物体发生碰撞
 
 ### GoalDistCritic
 
-##### **brief：**挑选接近目标位姿的轨迹
+##### brief：挑选接近目标位姿的轨迹
 
 先将path根据地图分辨率进行插值，以path最靠近local cost map边界的点为目标，所在格子的cost为0，计算每个格子到目标的曼哈顿距离作为cost，相邻的格子cost依次加1。将每条轨迹经过的格子cost相加（或者取最后一个，或者相乘）
 
 ### GoalAlignCritic
 
-##### **brief：**根据机器人是否指向目标点挑选相应的的轨迹
+##### brief：根据机器人是否指向目标点挑选相应的的轨迹
 
 用每个轨迹采样点正前方一定距离的格子来计算cost，继承自GoalDistCritic
 
 ### PathDistCritic
 
-##### **brief：**挑选离Path最近的轨迹
+##### brief：挑选离Path最近的轨迹
 
 先将path根据地图分辨率进行插值，path所在的格子cost为0，往四周扩展，计算每个格子到目标的曼哈顿距离作为cost，相邻的格子cost依次加1。
 
 ### PathAlign
 
-##### **brief：**挑选朝向Path的轨迹
+##### brief：挑选朝向Path的轨迹
 
 用每个轨迹采样点正前方一定距离的格子来计算cost，继承自PathDistCritic
