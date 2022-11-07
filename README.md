@@ -47,6 +47,7 @@
   - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵，基础矩阵，自由度及其解法.md)
   - [2d激光雷达运动补偿方法(去畸变)](./slam_theory/2d激光雷达运动补偿方法(去畸变).md)
   - [局部规划算法DWA](./slam_theory/局部规划算法DWA.md)
+  - [ros2 cost function](./slam_theory/ros2_cost_function.md)
   - ROS相关
     - [ROS指令](./C++/ROS指令.md)
     - [ROS激光雷达信息点云信息和PCL信息之间的转换](./slam_theory/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
