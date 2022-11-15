@@ -13,13 +13,13 @@ duration表示一段时间间隔，用来记录时间长度，可以表示几秒
 
 其原型:
 
-```
+```c++
 template<class Rep,class Period = std::ration<1>> class duration;
 ```
 
 第一个模板参数Rep是一个数值类型，表明存储所用的数据类型(int、long、double等)；第二个模板参数是一个默认模板参数std::ratio，它的原型是：
 
-```
+```c++
 template<std::intmax_t Num, std::intmax_t Denom = 1> class ratio;
 ```
 
@@ -29,7 +29,7 @@ template<std::intmax_t Num, std::intmax_t Denom = 1> class ratio;
 
 标准库为了方便使用，就定义了一些常用的时间间隔，如时、分、秒、毫秒、微秒和纳秒，在chrono命名空间下，它们的定义如下：
 
-```
+```c++
 typedef duration <Rep, ratio<3600,1>> hours;
 
 typedef duration <Rep, ratio<60,1>> minutes;
@@ -74,7 +74,7 @@ chrono 库中根据 duration 类封装了不同长度的时钟周期（也可以
 
 chrono还提供了获取时间间隔的时钟周期个数的方法count()，它的基本用法：
 
-```
+```c++
 #include <chrono>
 #include <iostream>
 int main()
@@ -91,7 +91,7 @@ int main()
 }
 ```
 
-```
+```c++
 3 ms duration has 3 ticks
 6000 us duration has 6000 ticks
 3.5 hz duration has 3.5 ticks
@@ -103,7 +103,7 @@ hz 时间单位为秒，初始化操作 hz(3.5) 表示时间间隔为 1/30*3.5 �
 
 通过定义这些常用的时间间隔类型，我们能方便的使用它们，比如线程的休眠:
 
-```
+```c++
 std::this_thread::sleep_for(std::chrono::seconds(3)); //休眠三秒
 
 std::this_thread::sleep_for(std::chrono:: milliseconds (100)); //休眠100毫秒
@@ -111,7 +111,7 @@ std::this_thread::sleep_for(std::chrono:: milliseconds (100)); //休眠100毫秒
 
 由于在 duration 类内部做了操作符重载，因此时间间隔之间可以直接进行算术运算，比如我们要计算两个时间间隔的差值，就可以在代码中做如下处理：
 
-```
+```c++
 #include <iostream>
 #include <chrono>
 using namespace boost;
@@ -126,7 +126,7 @@ int main()
 }
 ```
 
-```
+```c++
 540 second
 ```
 
@@ -136,7 +136,7 @@ int main()
 
 因为类型表示的维度不一，粗粒度的时长肯定能用细粒度的类型表示，反之则可能丢失精度，所以需要使用`chrono::duration_cast()`函数做显式的转换。将当前的时钟周期转换为其它的时钟周期，比如我可以把秒的时钟周期转换为分钟的时钟周期，然后通过count来获取转换后的分钟时间间隔：
 
-```
+```c++
 cout << chrono::duration_cast<chrono::minutes>( t3 ).count() <<” minutes”<< endl;
 
 将会输出:
@@ -153,7 +153,7 @@ time_point有一个函数`time_from_eproch()`用来获得1970年1月1日到time_
 
 下面的例子计算当前时间距离1970年1月1日有多少天：
 
-```
+```c++
 #include <iostream>
 #include <ratio>
 #include <chrono>
@@ -171,7 +171,7 @@ int main ()
 
 time_point还支持一些算术元算，比如两个time_point的差值时钟周期数，还可以和duration相加减。下面的例子输出前一天和后一天的日期：
 
-```
+```c++
 #include <iostream>
 #include <iomanip>
 #include <ctime>
@@ -214,7 +214,7 @@ clock是Chrono中的重要概念，而且这些clock都包含一个`now()`的成
 
 可以通过now()来获取当前时间点：
 
-```
+```c++
 #include <iostream>
 #include <chrono>
 
@@ -235,7 +235,7 @@ Hello World
 
 通过时钟获取两个时间点之相差多少个时钟周期，我们可以通过duration_cast将其转换为其它时钟周期的duration：
 
-```
+```c++
 cout << std::chrono::duration_cast<std::chrono::microseconds>( t2-t1 ).count() <<” microseconds”<< endl;
 
 输出：
@@ -244,13 +244,13 @@ cout << std::chrono::duration_cast<std::chrono::microseconds>( t2-t1 ).count() <
 
 还可以实现 `time_t` 和 `time_point` 之间的相互转换。
 
-```
+```c++
 //system_clock的to_time_t方法可以将一个time_point转换为ctime：
 std::time_t now_c = std::chrono::system_clock::to_time_t(time_point);
 //而from_time_t方法则是相反的，它将ctime转换为time_point。
 ```
 
-```
+```c++
 #include <chrono>
 #include <iostream>
 using namespace std;
@@ -290,7 +290,7 @@ int main()
 }
 ```
 
-```
+```c++
 今天的日期是: Thu Apr 8 11:09:49 2021
 明天的日期是: Fri Apr 9 11:09:49 2021
 新纪元时间: Thu Jan 1 08:00:00 1970
