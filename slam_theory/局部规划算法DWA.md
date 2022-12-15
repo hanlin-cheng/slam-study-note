@@ -48,7 +48,7 @@ allowable_w  = generateWindow(robotW, robotModel)
 
 ![img](media/20150410190721891)
 
-![img](media/20150410190821152)![img](miedia/20150410190936610)
+![img](media/20150410190821152)
 
 ![img](media/20150410191017918)
 
