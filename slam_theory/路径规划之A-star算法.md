@@ -174,4 +174,6 @@ function heuristic(node) =
 
 ## 参考
 
+http://theory.stanford.edu/~amitp/GameProgramming/
+
 https://paul.pub/a-star-algorithm/
