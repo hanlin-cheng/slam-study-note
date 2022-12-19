@@ -123,6 +123,7 @@
   
   - [Git_Command](./command/Git_Command.md)
   - [Git中submodule的使用](./command/Git中submodule的使用.md)
+  - [Git cherry-pick的使用](./command/git_cherry-pick.md)
   - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
   - [LIO-SAM运行](./command/LIO-SAM运行.md)
   - [Orb-slam2运行](./command/Orb-slam2运行.md)
