@@ -86,6 +86,7 @@
   - [左值与右值](./C++/左值与右值.md)
   - [C++下const增强](./C++/C++下const增强.md)
   - [C++11chrono库](./C++/C++11chrono库.md)
+  - [GoogleTest](./C++/GoogleTest.md)
   - Cmake相关
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
