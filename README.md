@@ -53,6 +53,7 @@
   - [欧拉角与坐标系旋转变换](./slam_theory/欧拉角与坐标系旋转变换.md)
   - [本质矩阵基础矩阵的自由度及其解法](./slam_theory/本质矩阵基础矩阵的自由度及其解法.md)
   - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./slam_theory/SLAM中的位姿变换与轨迹评价指标.md)
+  - [激光雷达性能指标](./slam_theory/激光雷达性能指标.md)
   - ROS相关
     - [ROS指令](./C++/ROS指令.md)
     - [ROS激光雷达信息点云信息和PCL信息之间的转换](./slam_theory/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
