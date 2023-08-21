@@ -216,7 +216,7 @@
 
   ​	受够了百度云，迅雷的限速吗，请使用IDM下载器，还支持浏览器插件版本，天下苦百度迅雷久矣........
 
-  - [IDM](https://pan.baidu.com/s/1KnHhyMaYgHZpbFE4twwTqg)	提取码：`1314`
+  - [IDM](https://pan.baidu.com/s/1vDUlk8r0bn7eb6zqnMEYkQ?pwd=1314)	提取码：`1314`
   - IDM支持百度云不限速下载助手，至于怎么用，tampermonkey插件yyds。
 
 
