@@ -64,7 +64,7 @@ $ catkin_make
 
 遇到问题： 
 
-![](media/GetImage.png)
+![](media/1GetImage.png)
 
  
 

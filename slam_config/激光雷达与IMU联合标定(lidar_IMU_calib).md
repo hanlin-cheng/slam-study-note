@@ -64,11 +64,11 @@ Github地址：https://github.com/APRIL-ZJU/Kontiki
 
 1. ndt_omp中的CMakeLists.txt: 
 
-   ![](media/GetImage.jpeg)
+   ![](media/1GetImage.jpeg)
 
    更改为：
 
-   ![](media/GetImage(1).png)
+   ![](media/1GetImage(1).png)
 
 2. lidar_IMU_calib中的CMakeLists.txt: 
 
