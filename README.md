@@ -158,7 +158,7 @@
 - [数据结构](https://github.com/youngyangyang04/leetcode-master)：数据结构很重要哦，毕竟也要去面试嘛，还有一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
 - [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：这本书应该是不少linux开发者必读书籍吧。
 - [Linux命令大全](https://www.linuxcool.com/)：当然了鸟哥的私房菜实在是过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
-- [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程（手动狗头），怎么可以没有好用的模板呢。
+- [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程，怎么可以没有好用的模板呢。
 
 
 
