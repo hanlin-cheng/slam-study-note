@@ -114,6 +114,7 @@
   - [相机+imu标定](slam_config/相机+imu标定.pdf)
   - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
   - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
+  - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
 
 - ### Linux
 
