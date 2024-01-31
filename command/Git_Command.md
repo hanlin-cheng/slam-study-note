@@ -378,3 +378,23 @@ $ git tag -d <tagname>															 //删除一个本地标签
 $ git push origin :refs/tags/<tagname>							//删除一个远程标签
 ```
 
+## 8.配置代理
+
+### 查看全局配置
+
+```shell
+git config --global -l
+```
+
+### 配置代理
+
+```shell
+git config --global http.proxy 127.0.0.1:7890
+```
+
+### 取消代理
+
+```shell
+git config --global --unset http.proxy
+```
+
