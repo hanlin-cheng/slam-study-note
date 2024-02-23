@@ -383,18 +383,101 @@ $ git push origin :refs/tags/<tagname>							//删除一个远程标签
 ### 查看全局配置
 
 ```shell
-git config --global -l
+$ git config --global -l
 ```
 
 ### 配置代理
 
 ```shell
-git config --global http.proxy 127.0.0.1:7890
+$ git config --global http.proxy 127.0.0.1:7890
 ```
 
 ### 取消代理
 
 ```shell
-git config --global --unset http.proxy
+$ git config --global --unset http.proxy
+```
+
+## 8.其他命令
+
+### git stash
+
+#### （1）使用场景：
+
+当我们在某一条分支上开发新功能时，突然有个紧急的错误需要修复
+
+这时，我们不得不暂停手头上的工作，切换到另外的分支去修复错误
+
+但是，新功能做到一半，既不能提交，也不能删除，那该怎么办呢
+
+我们可以先把当前的更改保存起来，等处理完错误后再恢复出来，git stash 就是这样的一个用法
+
+它可以将工作区和缓存区的更改保存到一个栈结构中，等后面需要的时候再恢复
+
+#### （2）基本用法
+
+##### 保存：`git stash`
+
+```shell
+> # 将当前工作区和暂存区的更改保存到一个栈结构
+$ git stash
+> # 将当前工作区和暂存区的更改保存到一个栈结构，并附带一个信息
+$ git stash save "message"
+$ # 将当前工作区和暂存区的更改保存到一个栈结构，包括新增的文件
+$ git stash -u
+$ git stash --include-untracked
+> # 将当前工作区和暂存区的更改保存到一个栈结构，包括新增的文件以及忽略的文件
+$ git stash -a
+$ git stash --all
+```
+
+##### 查看栈中保存的更改：`git stash list`
+
+```shell
+> # 查看栈中保存的更改
+$ git stash list
+```
+
+##### 查看更改的具体内容：`git stash show`
+
+```shell
+> # 查看栈中第一个更改的具体内容
+$ git stash show
+> # 查看栈中指定的更改的具体内容
+$ git stash show <stash id>
+```
+
+##### 恢复：`git stash apply`
+
+```shell
+> # 将栈中的第一个更改恢复到当前工作区和暂存区
+$ git stash apply
+> # 将栈中的指定的更改恢复到当前工作区和暂存区
+$ git stash apply <stash id>
+```
+
+##### 删除：`git stash drop`
+
+```shell
+> # 删除栈中的第一个更改
+$ git stash drop
+> # 删除栈中的指定的更改
+$ git stash drop <stash id>
+```
+
+##### 恢复 & 删除：`git stash pop`
+
+```shell
+> # 将栈中的第一个更改恢复到当前工作区和暂存区，同时删除栈中的第一个更改
+$ git stash pop
+> # 将栈中的指定的更改恢复到当前工作区和暂存区，同时删除栈中的指定的更改
+$ git stash pop <stash id>
+```
+
+##### 清空：`git stash clear`
+
+```shell
+> # 清空栈中保存的更改
+$ git stash clear
 ```
 
