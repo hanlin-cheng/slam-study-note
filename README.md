@@ -55,6 +55,7 @@
   - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./slam_theory/SLAM中的位姿变换与轨迹评价指标.md)
   - [激光雷达性能指标](./slam_theory/激光雷达性能指标.md)
   - [二维空间中的点坐标旋转关系](./slam_theory/二维空间中的点坐标旋转关系.md)
+  - [激光雷达与相机外参联合标定调研](./slam_theory/激光雷达与相机外参联合标定调研.md)
   - ROS相关
     - [ROS指令](./C++/ROS指令.md)
     - [ROS激光雷达信息点云信息和PCL信息之间的转换](./slam_theory/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
