@@ -8,9 +8,9 @@
 
 1. 一些学习的[心得笔记](#心的笔记)
 
-3. 一些可能有用的[电子书籍和学习资源](#Resource)（白嫖使我快乐）
+3. 一些可能有用的[电子书籍和学习资源](#Resource)（白嫖使我快乐^_^）
 
-3. 一些[学习软件](#Software)的安装（还是白嫖^_^，仅供自身学习使用，请勿外传，亲测无病毒，放心使用！）
+3. 一些[学习软件](#Software)的安装（还仅供自身学习使用，请勿外传，亲测无病毒，放心使用！）
 
 4. 一些[杂项](#Other)
 
@@ -157,7 +157,7 @@
 - [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)这个仓库包含了许多经典计算机书籍： 编程语言(Java、C++、C、Python等等)、操作系统、计算机网络、系统架构、程序员数学、测试、前端开发、后台开发、网络编程、Linux使用及内核、求职面试、算法与数据结构 安卓、IOS、数据库、Redis等主流的编程学习书籍。
 - [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：HelloGitHub 每个月定期分享 GitHub 上有趣、入门级的开源项目。包含多种编程语言，有助于编程语言的学习。
 - [基本素养](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)：当然除了编程语言外，想要成长为一个合格的程序员还是需要具备许多其他的基本素养。
-- [数据结构](https://github.com/youngyangyang04/leetcode-master)：数据结构很重要哦，毕竟也要去面试嘛，还有一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
+- [数据结构](https://github.com/youngyangyang04/leetcode-master)：这是一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
 - [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：这本书应该是不少linux开发者必读书籍吧。
 - [Linux命令大全](https://www.linuxcool.com/)：当然了鸟哥的私房菜实在是过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
 - [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程，怎么可以没有好用的模板呢。
@@ -253,7 +253,7 @@
 
 ## Other
 
-- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：一个程序员咋能不会科学上网捏，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的，至于怎么用，请自己去学习吧^_^。
+- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的，至于怎么用，请自己去学习吧^_^。
 - 一些拥有slam相关业务并且表现不错的[公司](./something_else/Company.md)
 
 
