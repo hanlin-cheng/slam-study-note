@@ -1,7 +1,5 @@
 # Study-note from HanLin
 
-##### *内心os：我好笨，我记不住，虽然好麻烦好麻烦，但是我得做笔记记录下来...*
-
 
 
 本仓库包含以下内容：
@@ -14,7 +12,7 @@
 
 4. 一些[杂项](#Other)
 
-5. TODO......!^_^
+5. TODO......
 
 
 
@@ -160,7 +158,7 @@
 - [数据结构](https://github.com/youngyangyang04/leetcode-master)：这是一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
 - [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：这本书应该是不少linux开发者必读书籍吧。
 - [Linux命令大全](https://www.linuxcool.com/)：当然了鸟哥的私房菜实在是过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
-- [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程，怎么可以没有好用的模板呢。
+- [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程。
 
 
 
@@ -189,7 +187,7 @@
 
 - ### Typora
 
-  ​	作为一名程序员，强烈建议大家使用Markdown语法编写文档。它允许人们使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
+  ​	强烈建议大家使用Markdown语法编写文档。它允许人们使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
 
   - [Windows版本](https://pan.baidu.com/s/14Fftz3ECigAh-abV-7VHrw)	提取码：`1314`
   - [Linux版本](https://pan.baidu.com/s/1rAC-yfhA9-UNVo0y0AIxyg)	提取码：`1314`
@@ -208,7 +206,7 @@
 
 - ### MATLAB
 
-  ​	MATLAB，工科生居家旅行必备。有什么好说的吗？没什么好说的吧......
+  ​	MATLAB，工科生居家旅行必备。
 
   - [MATLAB](https://pan.baidu.com/s/1aH7OmFjjGApE-v0Md8aB8w)	提取码：`1314`
   - 至于详细怎么安装，请自行百度。ps：安装镜像文件，选择密钥安装，最后将补丁文件复制到软件文件夹下全部替换就可以啦O(∩_∩)O
@@ -217,7 +215,7 @@
 
 - ### IDM
 
-  ​	受够了百度云，迅雷的限速吗，请使用IDM下载器，还支持浏览器插件版本，天下苦百度迅雷久矣........
+  ​	受够了百度云，迅雷的限速，请使用IDM下载器，还支持浏览器插件版本。
 
   - [IDM](https://pan.baidu.com/s/1vDUlk8r0bn7eb6zqnMEYkQ?pwd=1314)	提取码：`1314`
   - IDM支持百度云不限速下载助手，至于怎么用，tampermonkey插件yyds。
@@ -235,7 +233,7 @@
 
 - ### Pycharm
 
-  ​	Python IDE推荐，我是JetBrains家一系列开发工具的忠实使用者，主要优点：与时俱进，界面优美，功能强大。你还在为同步GitHub仓库发愁吗，你还在为ssh链接服务器痛苦吗，Pycharm一键注册99年，从此告别Mobxterm。
+  ​	Python IDE推荐，我是JetBrains家一系列开发工具的忠实使用者，主要优点：与时俱进，界面优美，功能强大。Pycharm一键注册99年，从此告别Mobxterm。
 
   - [Pycharm(windows版本)](https://pan.baidu.com/s/11syiJLEngQL3-8pzqshe7w)	提取码：`1314`
   - 将注册机拖到pycharm里一键完成注册即可。
