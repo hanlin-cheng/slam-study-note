@@ -54,6 +54,7 @@
   - [激光雷达性能指标](./slam_theory/激光雷达性能指标.md)
   - [二维空间中的点坐标旋转关系](./slam_theory/二维空间中的点坐标旋转关系.md)
   - [激光雷达与相机外参联合标定调研](./slam_theory/激光雷达与相机外参联合标定调研.md)
+  - [占据栅格地图构建](./slam_theory/占据栅格地图构建.md)
   - ROS相关
     - [ROS指令](./C++/ROS指令.md)
     - [ROS激光雷达信息点云信息和PCL信息之间的转换](./slam_theory/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
@@ -90,6 +91,7 @@
   - [C++下const增强](./C++/C++下const增强.md)
   - [C++11chrono库](./C++/C++11chrono库.md)
   - [GoogleTest](./C++/GoogleTest.md)
+  - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
   - Cmake相关
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
