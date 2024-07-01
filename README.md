@@ -92,6 +92,8 @@
   - [C++11chrono库](./C++/C++11chrono库.md)
   - [GoogleTest](./C++/GoogleTest.md)
   - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
+  - [boostcondition_variable](./C++/boostcondition_variable.md)
+  - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
   - Cmake相关
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
@@ -144,8 +146,6 @@
 
 
 
-
-
 ## Resource
 
 #### Online Learning
@@ -156,10 +156,10 @@
 - EbookFoundation开源了一个仓库[free-programming-books](https://github.com/EbookFoundation/free-programming-books)，在这里你可以找到许多编程类电子书籍和开源课程。
 - [awesome-cs-books](https://github.com/imarvinle/awesome-cs-books)这个仓库包含了许多经典计算机书籍： 编程语言(Java、C++、C、Python等等)、操作系统、计算机网络、系统架构、程序员数学、测试、前端开发、后台开发、网络编程、Linux使用及内核、求职面试、算法与数据结构 安卓、IOS、数据库、Redis等主流的编程学习书籍。
 - [HelloGitHub](https://github.com/521xueweihan/HelloGitHub)：HelloGitHub 每个月定期分享 GitHub 上有趣、入门级的开源项目。包含多种编程语言，有助于编程语言的学习。
-- [基本素养](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)：当然除了编程语言外，想要成长为一个合格的程序员还是需要具备许多其他的基本素养。
+- [基本素养](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)：一个合格的程序员需要具备许多其他的基本素养。
 - [数据结构](https://github.com/youngyangyang04/leetcode-master)：这是一个[算法可视化平台](https://github.com/algorithm-visualizer/algorithm-visualizer)，极大地提高了我自己的算法学习理解效率。
-- [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：这本书应该是不少linux开发者必读书籍吧。
-- [Linux命令大全](https://www.linuxcool.com/)：当然了鸟哥的私房菜实在是过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
+- [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：linux开发者必读书籍。
+- [Linux命令大全](https://www.linuxcool.com/)：鸟哥的私房菜过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
 - [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程。
 
 
@@ -189,7 +189,7 @@
 
 - ### Typora
 
-  ​	强烈建议大家使用Markdown语法编写文档。它允许人们使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
+  ​	强烈建议大家使用Markdown语法编写文档。它允许使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
 
   - [Windows版本](https://pan.baidu.com/s/14Fftz3ECigAh-abV-7VHrw)	提取码：`1314`
   - [Linux版本](https://pan.baidu.com/s/1rAC-yfhA9-UNVo0y0AIxyg)	提取码：`1314`
@@ -212,15 +212,6 @@
 
   - [MATLAB](https://pan.baidu.com/s/1aH7OmFjjGApE-v0Md8aB8w)	提取码：`1314`
   - 至于详细怎么安装，请自行百度。ps：安装镜像文件，选择密钥安装，最后将补丁文件复制到软件文件夹下全部替换就可以啦O(∩_∩)O
-
-
-
-- ### IDM
-
-  ​	受够了百度云，迅雷的限速，请使用IDM下载器，还支持浏览器插件版本。
-
-  - [IDM](https://pan.baidu.com/s/1vDUlk8r0bn7eb6zqnMEYkQ?pwd=1314)	提取码：`1314`
-  - IDM支持百度云不限速下载助手，至于怎么用，tampermonkey插件yyds。
 
 
 
