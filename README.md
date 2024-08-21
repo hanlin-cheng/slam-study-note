@@ -1,7 +1,5 @@
 # Study-note from HanLin
 
-
-
 本仓库包含以下内容：
 
 1. 一些学习的[心得笔记](#心的笔记)
@@ -13,12 +11,6 @@
 4. 一些[杂项](#Other)
 
 5. TODO......
-
-
-
-
-
-
 ## 心得笔记
 
 - ### [SLAM Theory](./slam_theory/)
@@ -143,9 +135,6 @@
   - [Velodyne_VLP16线激光雷达调用](./command/Velodyne_VLP16激光雷达调用.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
-
-
-
 ## Resource
 
 #### Online Learning
@@ -161,9 +150,6 @@
 - [鸟哥的私房菜](http://cn.linux.vbird.org/linux_basic/linux_basic.php#part3)：linux开发者必读书籍。
 - [Linux命令大全](https://www.linuxcool.com/)：鸟哥的私房菜过于详细，平常的学习工作中我们可能只是想要简单快速查一下某一个命令的用法。 
 - [PPT模板](https://www.pptsupermarket.com/)：面向ppt编程。
-
-
-
 #### Electronic Book
 
 - [视觉SLAM](https://pan.baidu.com/s/1yFiZ_fqGnKi7ExvMyvChgQ)	提取码：`1314`
@@ -182,9 +168,6 @@
 - [网络编程&服务器开发](https://pan.baidu.com/s/1diwvkJGb2CFkonj40yvtew)	提取码：`1314`
 - [面经](https://pan.baidu.com/s/1WGa1TRnHh3m1wmV4F7EkGA)	提取码：`1314`
 - [面试准备](https://pan.baidu.com/s/1FCYJ-TDRfKKkHlQWSgmL3g)	提取码：`1314`
-
-
-
 ## Software
 
 - ### Typora
@@ -194,8 +177,6 @@
   - [Windows版本](https://pan.baidu.com/s/14Fftz3ECigAh-abV-7VHrw)	提取码：`1314`
   - [Linux版本](https://pan.baidu.com/s/1rAC-yfhA9-UNVo0y0AIxyg)	提取码：`1314`
 
-
-
 - ### XMind
 
   ​	最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
@@ -204,26 +185,18 @@
   - [Linux版本](https://pan.baidu.com/s/1eiOgY8p2Ytlt8AaEUIHelQ)	提取码：`1314`
   - 流氓软件默认安装c盘，安装好后将破解包里的app.asar文件复制替换到Program Files/XMind/resources目录下即可。	
 
-
-
 - ### MATLAB
 
   ​	MATLAB，工科生居家旅行必备。
 
   - [MATLAB](https://pan.baidu.com/s/1aH7OmFjjGApE-v0Md8aB8w)	提取码：`1314`
   - 至于详细怎么安装，请自行百度。ps：安装镜像文件，选择密钥安装，最后将补丁文件复制到软件文件夹下全部替换就可以啦O(∩_∩)O
-
-
-
 - ### Adobe pdf
 
   ​	功能最全的pdf编辑器，一键安装。
 
   - [Adobe pdf](https://pan.baidu.com/s/1Fz0iAbfkJAFFD0ye20nvVA)	提取码：`1314`
   - Adobe系列版本越高对电脑配置要求越高，所以全家桶都有点卡顿，但不影响正常使用。附[Adobe全家桶](https://pan.baidu.com/s/1SYvUb4AeAQ5R6Lq6xypQNw)	提取码：`1314`
-
-
-
 - ### Pycharm
 
   ​	Python IDE推荐，我是JetBrains家一系列开发工具的忠实使用者，主要优点：与时俱进，界面优美，功能强大。Pycharm一键注册99年，从此告别Mobxterm。
@@ -240,16 +213,10 @@
   - [Office全家桶](https://pan.baidu.com/s/1LJo45XDnsSltjNCaiWT0MQ) 提取码：`1314`
   - [破解教程](./something_else/获取Office2021安装包及相关激活工具.md)
 
-
-
 ## Other
 
 - [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的，至于怎么用，请自己去学习吧^_^。
 - 一些拥有slam相关业务并且表现不错的[公司](./something_else/Company.md)
-
-
-
-
 
 ## 维护者
 
