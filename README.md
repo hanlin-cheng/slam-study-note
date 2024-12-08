@@ -110,6 +110,7 @@
   - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
   - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
   - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
+  - [VSCode使用Clangd](./slam_config/VSCode使用Clangd.md)
 
 - ### Linux
 
@@ -223,5 +224,4 @@
 [@HanLin](https://github.com/hanlin-cheng)
 
 > *关山难越，谁悲失路之人。萍水相逢，尽是他乡之客。*
-
 
