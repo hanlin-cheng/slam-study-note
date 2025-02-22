@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0d14e126f5092dc",
+        "id": "6ffa5fe6f559a353",
         "type": "tabs",
         "children": [
           {
-            "id": "2b94f4fba2ccb092",
+            "id": "c9a66ca85260c6ee",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
-                "bFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: obsidian_askpass.sh"
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -176,6 +176,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b94f4fba2ccb092",
-  "lastOpenFiles": []
+  "active": "c9a66ca85260c6ee",
+  "lastOpenFiles": [
+    "README.md"
+  ]
 }
