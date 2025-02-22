@@ -481,3 +481,58 @@ $ git stash pop <stash id>
 $ git stash clear
 ```
 
+### git fetch
+
+你可以通过 `git fetch origin` 来获取远程仓库（如 GitHub 或 GitLab）上的最新提交、分支和标签，但不会更改你的本地工作目录或分支。
+
+```
+git fetch origin
+```
+
+这个命令会更新你本地的远程追踪分支（例如 `origin/main`），但不会合并任何更改到当前的本地分支。如果你查看 `git log`，你会看到本地分支的历史没有变化。
+
+**查看远程分支和提交**
+
+拉取更新后，你可以检查远程分支的更改，使用以下命令查看更新的远程分支：
+
+```
+git log origin/main
+```
+
+或者查看所有远程分支：
+
+```
+git branch -r
+```
+
+**同步本地分支和远程分支（比如 rebase 或 merge）**
+
+在执行 `git fetch origin` 后，你可以选择将远程分支的更新合并或 rebase 到你的本地分支：
+
+- **合并**：使用 `git merge` 将远程更新合并到当前本地分支。
+
+  ```
+  git merge origin/main
+  ```
+
+- **Rebase**：使用 `git rebase` 将本地提交移到远程分支的最新提交之后。
+
+  ```
+  git rebase origin/main
+  ```
+
+**检查远程的所有更新**
+
+如果你想查看所有远程的分支信息及更新，可以使用：
+
+```
+git fetch origin
+git branch -r
+```
+
+#### 为什么使用 `git fetch` 而不是 `git pull`？
+
+- **`git fetch`** 只会拉取远程更新，但不会自动修改你当前的工作分支。这样，你可以先检查远程更新后再决定是合并（`git merge`）还是其他操作。
+- **`git pull`** 则会在拉取更新的同时，自动将远程分支的更新合并到你的当前分支。`git pull` 实际上是 `git fetch` 和 `git merge`（或 `git rebase`）的组合。
+
+通过 `git fetch`，你有更多的控制权，可以先查看更新内容，再决定如何合并这些更新。
