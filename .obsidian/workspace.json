@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6ffa5fe6f559a353",
+        "id": "6588216ae72e1db7",
         "type": "tabs",
         "children": [
           {
-            "id": "c9a66ca85260c6ee",
+            "id": "a484015e9ea1cd53",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -176,7 +172,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9a66ca85260c6ee",
+  "active": "a484015e9ea1cd53",
   "lastOpenFiles": [
     "README.md"
   ]
