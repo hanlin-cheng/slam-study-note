@@ -34,7 +34,7 @@
   - [多线激光雷达与组合惯导外参标定原理](./slam_theory/lidar_calibration_cn.pdf)
   - [图优化g2o](./slam_theory/图优化g2o.pdf)
   - [矩阵微分](./slam_theory/矩阵微分-清华.pdf)
-  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵，基础矩阵，自由度及其解法.md)
+  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵基础矩阵的自由度及其解法.md)
   - [2d激光雷达运动补偿方法(去畸变)](./slam_theory/2d激光雷达运动补偿方法(去畸变).md)
   - [局部规划算法DWA](./slam_theory/局部规划算法DWA.md)
   - [ros2 cost function](./slam_theory/ros2_cost_function.md)
