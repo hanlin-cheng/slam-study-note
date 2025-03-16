@@ -13,51 +13,53 @@
 5. TODO......
 ## 心得笔记
 
-- ### [SLAM Theory](./slam_theory/)
+- ### Algorithm
 
-  - [匈牙利算法](./slam_theory/匈牙利算法.md)
-  - [相机参数DKPR的解释](./slam_theory/相机参数DKPR的解释.md)
-  - [多维高斯分布](./slam_theory/多维高斯分布.md)
-  - [正态分布](./slam_theory/正态分布.md)
-  - [灰度质心法](./slam_theory/灰度质心法.md)
-  - [雅可比矩阵和海塞矩阵](./slam_theory/雅克比矩阵和海塞矩阵.md)
-  - [高斯牛顿法](./slam_theory/高斯牛顿法.md)
-  - [归一化与标准化](./slam_theory/归一化与标准化.md)
-  - [超定方程组的最小二乘解](./slam_theory/超定方程组的最小二乘解.md)
-  - [单目视觉的尺度等价性](./slam_theory/单目视觉的尺度等价性.md)
-  - [多元函数的泰勒展开式](./slam_theory/多元函数的泰勒展开式.md)
-  - [矩阵的奇异值分解](./slam_theory/矩阵的奇异值分解.md)
-  - [为什么使用齐次坐标](./slam_theory/为什么使用齐次坐标.md)
-  - [向量积(矢积)与数量积(标积)的区别](./slam_theory/向量积(矢积)与数量积(标积)的区别.md)
-  - [协方差矩阵](./slam_theory/协方差矩阵.md)
-  - [重投影误差](./slam_theory/重投影误差.md)
-  - [多线激光雷达与组合惯导外参标定原理](./slam_theory/lidar_calibration_cn.pdf)
-  - [图优化g2o](./slam_theory/图优化g2o.pdf)
-  - [矩阵微分](./slam_theory/矩阵微分-清华.pdf)
-  - [本质矩阵/基础矩阵/自由度及其解法](./slam_theory/本质矩阵基础矩阵的自由度及其解法.md)
-  - [2d激光雷达运动补偿方法(去畸变)](./slam_theory/2d激光雷达运动补偿方法(去畸变).md)
-  - [局部规划算法DWA](./slam_theory/局部规划算法DWA.md)
-  - [ros2 cost function](./slam_theory/ros2_cost_function.md)
-  - [路径规划之A*算法](./slam_theory/路径规划之A-star算法.md)
-  - [路径规划之Theta*算法](./slam_theory/Theta_star-Any-Angle-Path-Planning-on-Grids.md)
-  - [欧拉角与坐标系旋转变换](./slam_theory/欧拉角与坐标系旋转变换.md)
-  - [本质矩阵基础矩阵的自由度及其解法](./slam_theory/本质矩阵基础矩阵的自由度及其解法.md)
-  - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./slam_theory/SLAM中的位姿变换与轨迹评价指标.md)
-  - [激光雷达性能指标](./slam_theory/激光雷达性能指标.md)
-  - [二维空间中的点坐标旋转关系](./slam_theory/二维空间中的点坐标旋转关系.md)
-  - [激光雷达与相机外参联合标定调研](./slam_theory/激光雷达与相机外参联合标定调研.md)
-  - [占据栅格地图构建](./slam_theory/占据栅格地图构建.md)
-  - [双目立体视觉SAD匹配算法](./slam_theory/双目立体视觉SAD匹配算法.md)
-  - ROS相关
+  - **Math and Matrix**
+    - [多维高斯分布](./Algorithm/多维高斯分布.md)
+    - [正态分布](./Algorithm/正态分布.md)
+    - [雅可比矩阵和海塞矩阵](./Algorithm/雅克比矩阵和海塞矩阵.md)
+    - [高斯牛顿法](./Algorithm/高斯牛顿法.md)
+    - [归一化与标准化](./Algorithm/归一化与标准化.md)
+    - [多元函数的泰勒展开式](./Algorithm/多元函数的泰勒展开式.md)
+    - [矩阵的奇异值分解](./Algorithm/矩阵的奇异值分解.md)
+    - [矩阵微分](./Algorithm/矩阵微分-清华.pdf)
+    - [向量积(矢积)与数量积(标积)的区别](./Algorithm/向量积(矢积)与数量积(标积)的区别.md)
+    - [协方差矩阵](./Algorithm/协方差矩阵.md)
+    - [超定方程组的最小二乘解](./Algorithm/超定方程组的最小二乘解.md)
+  - **SLAM**
+    - [相机参数DKPR的解释](./Algorithm/相机参数DKPR的解释.md)
+    - [灰度质心法](./Algorithm/灰度质心法.md)
+    - [单目视觉的尺度等价性](./Algorithm/单目视觉的尺度等价性.md)
+    - [为什么使用齐次坐标](./Algorithm/为什么使用齐次坐标.md)
+    - [重投影误差](./Algorithm/重投影误差.md)
+    - [图优化g2o](./Algorithm/图优化g2o.pdf)
+    - [本质矩阵/基础矩阵/自由度及其解法](./Algorithm/本质矩阵基础矩阵的自由度及其解法.md)
+    - [欧拉角与坐标系旋转变换](./Algorithm/欧拉角与坐标系旋转变换.md)
+    - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./Algorithm/SLAM中的位姿变换与轨迹评价指标.md)
+    - [二维空间中的点坐标旋转关系](./Algorithm/二维空间中的点坐标旋转关系.md)
+    - [双目立体视觉SAD匹配算法](./Algorithm/双目立体视觉SAD匹配算法.md)
+    - [SVD与非线性优化在最小二乘问题中的区别](./Algorithm/SVD与非线性优化在最小二乘问题中的区别)
+  - **Planning**
+    - [局部规划算法DWA](./Algorithm/局部规划算法DWA.md)
+    - [路径规划之A*算法](./Algorithm/路径规划之A-star算法.md)
+    - [路径规划之Theta*算法](./Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md)
+    - [占据栅格地图构建](./Algorithm/占据栅格地图构建.md)
+    - [ros2 cost function](./Algorithm/ros2_cost_function.md)
+  - **ROS**
     - [ROS指令](./C++/ROS指令.md)
-    - [ROS激光雷达信息点云信息和PCL信息之间的转换](./slam_theory/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
-    - [ROS Nodehandle句柄的理解](./slam_theory/ROSNodehandle句柄的理解.md)
-    - [ROS param 的使用](./slam_theory/ROSparam的使用.md)
-    - [ROS中Remap(话题重映射)的两种使用方法](./slam_theory/Ros中Remap(话题重映射)的两种使用方法.md)
+    - [ROS激光雷达信息点云信息和PCL信息之间的转换](./Algorithm/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
+    - [ROS Nodehandle句柄的理解](./Algorithm/ROSNodehandle句柄的理解.md)
+    - [ROS param 的使用](./Algorithm/ROSparam的使用.md)
+    - [ROS中Remap(话题重映射)的两种使用方法](./Algorithm/Ros中Remap(话题重映射)的两种使用方法.md)
+  - [匈牙利算法](./Algorithm/匈牙利算法.md)
+  - [2d激光雷达运动补偿方法(去畸变)](./Algorithm/2d激光雷达运动补偿方法(去畸变).md)
+  - [激光雷达性能指标](./Algorithm/激光雷达性能指标.md)
+  - [激光雷达与相机外参联合标定调研](./Algorithm/激光雷达与相机外参联合标定调研.md)
   - 待上传
 
-- ### [C++相关知识](./C++)
-  
+- ### C++
+
   - [常用函数](./C++/常用函数.md)
   - [opencv常用api](./C++/opencv常用api.md)
   - [c++并发与多线程](./C++/c++并发与多线程.md)
@@ -87,12 +89,12 @@
   - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
   - [boostcondition_variable](./C++/boostcondition_variable.md)
   - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
-  - Cmake相关
+  - **Cmake相关**
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
     - [find_package指令](./C++/Find_package.md)
-  
-- ### [SLAM配置文档](./slam_config/)
+
+- ### 配置文档
 
   - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
   - [xavier装机文档](slam_config/xavier装机文档.md)
@@ -117,15 +119,15 @@
 
   - 待上传
 
-- ### [QT编程](./QT)
-  
+- ### QT编程
+
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
   - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
-  
-- ### 一些怎么也记不全的[command](./command/)指令
-  
+
+- ### command
+
   - [Git_Command](./command/Git_Command.md)
   - [Git中submodule的使用](./command/Git中submodule的使用.md)
   - [Git cherry-pick的使用](./command/git_cherry-pick.md)
@@ -217,8 +219,7 @@
 
 ## Other
 
-- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的，至于怎么用，请自己去学习吧^_^。
-- 一些拥有slam相关业务并且表现不错的[公司](./something_else/Company.md)
+- [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的^_^。
 
 ## 维护者
 
