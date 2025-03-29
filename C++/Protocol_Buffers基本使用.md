@@ -18,7 +18,7 @@
   - 序列化： 按照 `.proto` 协议文件将`数据结构或对象`转换成`二进制流`的过程
   - 反序列化：将在序列化过程中所生成的`二进制流`转换成`数据结构或对象`的过程
 
-![Protocol Buffer 特点](media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS1hOWIzZmMyZWQxNmY2MWU1LnBuZw)
+![Protocol Buffer 特点](media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS1hOWIzZmMyZWQxNmY2MWU1LnBuZw.png)
 
 ## Protocol Buffer 语法
 

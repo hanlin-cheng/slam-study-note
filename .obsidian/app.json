@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./media",
-  "defaultViewMode": "preview",
-  "promptDelete": false
+  "defaultViewMode": "source",
+  "promptDelete": false,
+  "showInlineTitle": false
 }

@@ -11,6 +11,9 @@
 4. 一些[杂项](#Other)
 
 5. TODO......
+
+*注：后续文档撰写使用obsidian打开*
+
 ## 心得笔记
 
 - ### Algorithm
@@ -89,7 +92,7 @@
   - [boostcondition_variable](./C++/boostcondition_variable.md)
   - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
   - [resize和reserve](./C++/如何正确使用resize和reserve)
-  - **Cmake相关**
+  - **Cmake**
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
     - [find_package指令](./C++/Find_package.md)
@@ -100,11 +103,6 @@
   - [xavier装机文档](slam_config/xavier装机文档.md)
   - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
   - [Rosdep_update_falied](slam_config/Rosdep_update_failed.md)
-  - [安装LIO-SAM](slam_config/安装LIO-SAM.md)
-  - [安装orb-slam2](slam_config/安装Orb-slam2.md)
-  - [安装Rtabmap](slam_config/安装Rtabmap.md)
-  - [安装VINS-Fusion](slam_config/安装VINS-Fusion.md)
-  - [安装ZED以及ros驱动](slam_config/安装ZED以及ros驱动.md)
   - [轨迹评估介绍与evo工具使用](slam_config/轨迹评估介绍与evo工具使用.md)
   - [基于ROS的opencv安装与卸载](slam_config/基于ROS的opencv安装与卸载.md)
   - [激光+imu标定(lidar_align)](slam_config/激光+imu标定(lidar_align​).pdf)
@@ -136,7 +134,6 @@
   - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
   - [LIO-SAM运行](./command/LIO-SAM运行.md)
   - [Orb-slam2运行](./command/Orb-slam2运行.md)
-  - [Velodyne_VLP16线激光雷达调用](./command/Velodyne_VLP16激光雷达调用.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
 ## Resource

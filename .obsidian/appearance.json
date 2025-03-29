@@ -1,4 +1,6 @@
 {
-  "cssTheme": "",
-  "accentColor": ""
+  "cssTheme": "Blue Topaz",
+  "accentColor": "",
+  "showViewHeader": true,
+  "showRibbon": true
 }

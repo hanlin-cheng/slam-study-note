@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slam_config/基于ROS的opencv安装与卸载.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "基于ROS的opencv安装与卸载"
+              "title": "README"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 343.5
   },
   "right": {
     "id": "3887574f99ec0f4e",
@@ -125,13 +125,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slam_config/基于ROS的opencv安装与卸载.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "基于ROS的opencv安装与卸载 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -153,34 +153,40 @@
   },
   "active": "22a02a9ce89f7e0a",
   "lastOpenFiles": [
-    "slam_config/激光+imu标定(lidar_align​).pdf",
-    "slam_config/轨迹评估介绍与evo工具使用.md",
-    "slam_config/基于ROS的opencv安装与卸载.md",
+    "Algorithm/雅克比矩阵和海塞矩阵.md",
     "README.md",
-    "Algorithm/向量积(矢积)与数量积(标积)的区别.md",
-    "Algorithm/IMU预积分.md",
-    "未命名.canvas",
-    "slam_config/windows下orb和hfnet安装.md",
-    "slam_config/VSCode使用Clangd.md",
-    "C++/const成员函数.md",
-    "C++/cin与get()getline()输入问题.md",
+    "C++/EigenGeometry.md",
+    "Algorithm/欧拉角与坐标系旋转变换.md",
+    "Algorithm/为什么使用齐次坐标.md",
+    "Algorithm/多元函数的泰勒展开式.md",
+    "Algorithm/归一化与标准化.md",
+    "Algorithm/超定方程组的最小二乘解.md",
     "C++/单例模式.md",
-    "Algorithm/双目立体视觉SAD匹配算法.md",
-    "C++/Opencv_Mat.md",
-    "Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md",
-    "C++/opencv常用api.md",
-    "Algorithm/ROSNodehandle句柄的理解.md",
-    "Algorithm/ros2_cost_function.md",
-    "Algorithm/协方差矩阵.md",
-    "Algorithm/media/file-20250325134659505.png",
-    "Algorithm/SVD与非线性优化在最小二乘问题中的区别.md",
-    "Algorithm/Ros中Remap(话题重映射)的两种使用方法.md",
-    "Algorithm/SLAM中的位姿变换与轨迹评价指标.md",
-    "Algorithm/ROS激光雷达信息、点云信息和PCL信息之间的转换.md",
-    "C++/c++并发与多线程.md",
+    "C++/构造函数的调用时机.md",
     "C++/函数指针的定义方式.md",
-    "slam_config/安装Orb-slam2.md",
+    "C++/计算时间.md",
+    "C++/内联函数.md",
+    "C++/数据类型字节数.md",
+    "C++/设计模式之生产者-消费者模型.md",
+    "C++/如何正确使用resize和reserve.md",
+    "C++/Protocol_Buffers基本使用.md",
+    "C++/media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS1hOWIzZmMyZWQxNmY2MWU1LnBuZw.png",
+    "C++/media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS01NjYzNTk5ZTg0MzNmNWI4LnBuZw.png",
+    "C++/左值与右值.md",
+    "slam_config/VSCode使用Clangd.md",
+    "slam_config/激光+imu标定(lidar_align​).pdf",
+    "slam_config/Rosdep_update_failed.md",
+    "slam_config/安装ZED以及ros驱动.md",
+    "slam_config/安装VINS-Fusion.md",
     "slam_config/安装LIO-SAM.md",
+    "slam_config/turbot建图导航算法汇总.md",
+    "slam_config/xavier装机文档.md",
+    "slam_config/ubuntu18.04系统下安装turtlebot2.md",
+    "Algorithm/lidar_calibration_cn.pdf",
+    "Algorithm/media/9.png",
+    "Algorithm/media/10.png",
+    "未命名.canvas",
+    "Algorithm/media/file-20250325134659505.png",
     "slam_config/激光雷达+相机标定.pdf",
     "Linux/media/file-20250325102636115.png",
     "Linux/media/file-20250325101352628.png",
