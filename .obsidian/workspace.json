@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -148,10 +148,12 @@
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "i18n:I18N": false
+      "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-git:打开Git源代码管理": false
     }
   },
-  "active": "22a02a9ce89f7e0a",
+  "active": "0420b99078fc5c52",
   "lastOpenFiles": [
     "Algorithm/雅克比矩阵和海塞矩阵.md",
     "README.md",

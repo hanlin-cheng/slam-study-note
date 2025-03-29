@@ -3,21 +3,19 @@
 本仓库包含以下内容：
 
 1. 一些学习的[心得笔记](#心的笔记)
+2. 
+3. 一些可能有用的[电子书籍和学习资源](#Resource)
 
-2. 一些可能有用的[电子书籍和学习资源](#Resource)
+4. 一些[学习软件](#Software)的安装（仅供自身学习使用，亲测无病毒，放心使用！）
 
-3. 一些[学习软件](#Software)的安装（仅供自身学习使用，亲测无病毒，放心使用！）
+5. 一些[杂项](#Other)
 
-4. 一些[杂项](#Other)
-
-5. TODO......
+6. TODO......
 
 *注：后续文档撰写使用obsidian打开*
 
 ## 心得笔记
-
-- ### Algorithm
-
+### Algorithm
   - **Math and Matrix**
     - [多维高斯分布](./Algorithm/多维高斯分布.md)
     - [正态分布](./Algorithm/正态分布.md)
@@ -60,9 +58,7 @@
   - [激光雷达性能指标](./Algorithm/激光雷达性能指标.md)
   - [激光雷达与相机外参联合标定调研](./Algorithm/激光雷达与相机外参联合标定调研.md)
   - 待上传
-
 - ### C++
-
   - [常用函数](./C++/常用函数.md)
   - [c++并发与多线程](./C++/c++并发与多线程.md)
   - [STL容器使用时机](./C++/STL容器使用时机.md)
@@ -96,9 +92,7 @@
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
     - [find_package指令](./C++/Find_package.md)
-
 - ### 配置文档
-
   - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
   - [xavier装机文档](slam_config/xavier装机文档.md)
   - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
@@ -112,20 +106,14 @@
   - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
   - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
   - [VSCode使用Clangd](./slam_config/VSCode使用Clangd.md)
-
 - ### Linux
-
   - 待上传
-
 - ### QT编程
-
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
   - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
-
 - ### command
-
   - [Git_Command](./command/Git_Command.md)
   - [Git中submodule的使用](./command/Git中submodule的使用.md)
   - [Git cherry-pick的使用](./command/git_cherry-pick.md)
@@ -137,9 +125,7 @@
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
 ## Resource
-
 #### Online Learning
-
 - 文献检索：研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
 - [Paperswithcode](https://paperswithcode.com/)：作为AI工程师（cv工程师）中的一员，这个网站可以找到许多附带开源代码的高质量论文。
 - [*Z-Library*](https://zh.1lib.education/)：这个数字图书馆可以搜索下载到各种各样的电子书，十分强大，而且免费，不过需要科学上网才能访问。
@@ -170,7 +156,6 @@
 - [面经](https://pan.baidu.com/s/1WGa1TRnHh3m1wmV4F7EkGA)	提取码：`1314`
 - [面试准备](https://pan.baidu.com/s/1FCYJ-TDRfKKkHlQWSgmL3g)	提取码：`1314`
 ## Software
-
 - ### Typora
 
   ​	强烈建议大家使用Markdown语法编写文档。它允许使用纯文本格式编写文档，由于 Markdown 的轻量化、易读易写特性，许多网站都广泛使用 Markdown 来撰写帮助文档， 如 GitHub等， Markdown格式同步github远程仓库十分方便，不用担心windows层出不穷的格式错误。这里推荐一款Markdown语法软件Typora，由于最近该软件开始收费了，本着学习（白嫖）的精神，因此保存了不收费的一个版本。
@@ -180,7 +165,7 @@
 
 - ### XMind
 
-  ​	最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
+  ​最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
 
   - [Windows版本](https://pan.baidu.com/s/1oFZS5czuOF2hEbw1LfxgIw)	提取码：`1314`
   - [Linux版本](https://pan.baidu.com/s/1eiOgY8p2Ytlt8AaEUIHelQ)	提取码：`1314`

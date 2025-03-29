@@ -1,0 +1,10 @@
+{
+    "author": "Vinzent",
+    "authorUrl": "https://github.com/Vinzent03",
+    "id": "obsidian-git",
+    "name": "Git",
+    "description": "集成 Git 版本控制,具有自动备份和其他高级功能。",
+    "isDesktopOnly": false,
+    "fundingUrl": "https://ko-fi.com/vinzent",
+    "version": "2.32.1"
+}
