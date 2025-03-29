@@ -61,7 +61,6 @@
 - ### C++
 
   - [常用函数](./C++/常用函数.md)
-  - [opencv常用api](./C++/opencv常用api.md)
   - [c++并发与多线程](./C++/c++并发与多线程.md)
   - [STL容器使用时机](./C++/STL容器使用时机.md)
   - [类型转换](./C++/转换.md)
@@ -89,6 +88,7 @@
   - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
   - [boostcondition_variable](./C++/boostcondition_variable.md)
   - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
+  - [resize和reserve](./C++/如何正确使用resize和reserve)
   - **Cmake相关**
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)

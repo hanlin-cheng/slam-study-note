@@ -1,0 +1,20 @@
+{
+  "attachmentFolderPath": "./media",
+  "attachmentRenameMode": "Only pasted images",
+  "duplicateNameSeparator": " ",
+  "generatedAttachmentFilename": "file-${date:YYYYMMDDHHmmssSSS}",
+  "jpegQuality": 0.8,
+  "shouldConvertPastedImagesToJpeg": false,
+  "shouldDeleteOrphanAttachments": false,
+  "shouldKeepEmptyAttachmentFolders": false,
+  "shouldRenameAttachmentFiles": false,
+  "shouldRenameAttachmentFolder": true,
+  "shouldRenameAttachmentsToLowerCase": false,
+  "shouldRenameCollectedAttachments": false,
+  "specialCharacters": "#^[]|*\\<>:?",
+  "specialCharactersReplacement": "-",
+  "warningVersion": "7.1.0",
+  "customTokensStr": "",
+  "excludePaths": [],
+  "includePaths": []
+}

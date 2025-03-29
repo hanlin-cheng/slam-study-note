@@ -1,0 +1,11 @@
+{
+    "id": "obsidian-custom-attachment-location",
+    "name": "Custom Attachment Location",
+    "version": "7.1.0",
+    "minAppVersion": "1.8.9",
+    "description": "像 typora 一样使用变量($filename,$data,etc）自定义附件位置。",
+    "author": "RainCat1998",
+    "authorUrl": "https://github.com/RainCat1998/",
+    "isDesktopOnly": false,
+    "fundingUrl": "https://www.buymeacoffee.com/mnaoumov"
+}
