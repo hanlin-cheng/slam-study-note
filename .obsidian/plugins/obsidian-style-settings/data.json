@@ -1,5 +1,16 @@
 {
   "blue-topaz-theme@@bt-status-on": false,
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
-  "blue-topaz-theme@@retain-header-color": false
+  "blue-topaz-theme@@retain-header-color": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
+  "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-bt-default",
+  "blue-topaz-theme@@scrollbar-style-option": "default-scrollbar",
+  "blue-topaz-theme@@toggle-divider-lines": false,
+  "blue-topaz-theme@@toggle-header-bottom-line": false,
+  "blue-topaz-theme@@fancy-hr": "default-hr",
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-default",
+  "blue-topaz-theme@@disable-auto-hide-header": false,
+  "blue-topaz-theme@@bt-colorful-titlebar": false
 }

@@ -134,6 +134,7 @@ clang工具是根据compile_commands.json文件中包含的项目中每个文件
 ```
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 ```
+*colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON*
 
 编译完成，查看build目录下生成compile_command.json文件，这时候就可以使用clangd跳转了，reload一下可以看见clangd的index文件在Workspace根目录下的.cache/clangd/index目录。在修改了.clangd文件之后你也可以把.cache目录删除然后再打开vscode重新生成index并检查clangd的log文件看看还有没有什么需要修改的。
 
