@@ -8,32 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "72e3ad08ed248a36",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
-          },
-          {
             "id": "b673a08f489141e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Algorithm/二维空间中的点坐标旋转关系.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "二维空间中的点坐标旋转关系"
+            }
+          },
+          {
+            "id": "342406e2a37143a0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.10"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/ROS2 Launch文件简介.md",
+                "file": "Algorithm/ROS2_command.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ROS2 Launch文件简介 的大纲"
+              "title": "ROS2_command 的大纲"
             }
           }
         ],
@@ -155,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -165,10 +167,24 @@
   },
   "active": "b673a08f489141e6",
   "lastOpenFiles": [
-    "Algorithm/cartographer相关参数解析.md",
     "README.md",
+    "Algorithm/欧拉角与坐标系旋转变换.md",
+    "slam_config/VSCode使用Clangd.md",
+    "slam_config/Matlab标定单目相机内参.md",
     "Algorithm/ROS2_command.md",
+    "Algorithm/ros2_cost_function.md",
+    "Algorithm/Voronoi Graph.md",
+    "Algorithm/media/image-20250804115152515.png",
+    "Algorithm/media/image-20250804115131196.png",
+    "Algorithm/media/image-20250804115059584.png",
+    "Algorithm/media/image-20250804115041054.png",
+    "Algorithm/media/image-20250804115017437.png",
+    "Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md",
+    "Algorithm/media/file-20250804114842372.png",
+    "Algorithm/cartographer相关参数解析.md",
     "Algorithm/ROS2的Launch文件简介.md",
+    "Algorithm/ROS2 command.md",
+    "Algorithm/ROS2 Launch文件简介.md",
     "C++/Eigen几何模块的引入.md",
     "C++/EigenGeometry.md",
     "C++/const成员函数.md",
@@ -178,19 +194,11 @@
     "Algorithm/双目立体视觉SAD匹配算法.md",
     "Algorithm/SVD与非线性优化在最小二乘问题中的区别.md",
     "something_else/如何在Linux中使用Clash.md",
-    "slam_config/VSCode使用Clangd.md",
-    "Algorithm/欧拉角与坐标系旋转变换.md",
     "Algorithm/重投影误差.md",
     "Algorithm/ROS激光雷达信息、点云信息和PCL信息之间的转换.md",
     "Algorithm/ROSparam的使用.md",
-    "Algorithm/ros2_cost_function.md",
     "Algorithm/Ros中Remap(话题重映射)的两种使用方法.md",
     "Algorithm/ROSNodehandle句柄的理解.md",
-    "Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md",
-    "Algorithm/SLAM中的位姿变换与轨迹评价指标.md",
-    "Algorithm/正态分布.md",
-    "Algorithm/占据栅格地图构建.md",
-    "Algorithm/为什么使用齐次坐标.md",
     "Algorithm/图优化g2o.pdf",
     "C++/media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS1hOWIzZmMyZWQxNmY2MWU1LnBuZw.png",
     "C++/media/aHR0cDovL3VwbG9hZC1pbWFnZXMuamlhbnNodS5pby91cGxvYWRfaW1hZ2VzLzk0NDM2NS01NjYzNTk5ZTg0MzNmNWI4LnBuZw.png",
@@ -199,10 +207,6 @@
     "Algorithm/media/9.png",
     "Algorithm/media/10.png",
     "未命名.canvas",
-    "Algorithm/media/file-20250325134659505.png",
-    "slam_config/激光雷达+相机标定.pdf",
-    "Linux/media/file-20250325102636115.png",
-    "Linux/media/file-20250325101352628.png",
-    "Linux/media/file-20250325101331003.png"
+    "slam_config/激光雷达+相机标定.pdf"
   ]
 }

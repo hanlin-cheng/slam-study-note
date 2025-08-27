@@ -163,3 +163,36 @@ float32 angle_max
 float32 angle_increment
 ...
 ```
+## 7. ros2 param
+### 7.1 列出某个节点的参数
+```
+ros2 param list /node_name
+```
+### 7.2 获取某个参数值
+```
+ros2 param get /node_name param_name
+```
+示例：
+```
+ros2 param get /amcl use_map_topic
+```
+### 7.3 设置参数值（实时修改）
+```
+ros2 param set /node_name param_name value
+```
+示例：
+```
+ros2 param set /amcl use_map_topic true
+```
+### 7.4 描述参数信息
+```
+ros2 param describe /node_name param_name
+```
+### 7.5 加载参数文件
+```
+ros2 param load /node_name params.yaml
+```
+### 7.6 删除参数
+```
+ros2 param delete /node_name param_name
+```
