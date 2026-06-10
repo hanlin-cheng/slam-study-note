@@ -3,13 +3,9 @@
 本仓库包含以下内容：
 
 1. 一些学习的[心得笔记](#心的笔记)
-2. 
-3. 一些可能有用的[电子书籍和学习资源](#Resource)
-
-4. 一些[学习软件](#Software)的安装（仅供自身学习使用，亲测无病毒，放心使用！）
-
-5. 一些[杂项](#Other)
-
+2. 一些可能有用的[电子书籍和学习资源](#Resource)
+3. 一些[学习软件](#Software)的安装（仅供自身学习使用，亲测无病毒，放心使用！）
+4. 一些[杂项](#Other)
 6. TODO......
 
 *注：后续文档撰写使用obsidian打开*
@@ -28,6 +24,7 @@
     - [向量积(矢积)与数量积(标积)的区别](./Algorithm/向量积(矢积)与数量积(标积)的区别.md)
     - [协方差矩阵](./Algorithm/协方差矩阵.md)
     - [超定方程组的最小二乘解](./Algorithm/超定方程组的最小二乘解.md)
+    
   - **SLAM**
     - [相机参数DKPR的解释](./Algorithm/相机参数DKPR的解释.md)
     - [灰度质心法](./Algorithm/灰度质心法.md)
@@ -44,12 +41,15 @@
     - [ORBSLAM3学习](./Algorithm/ORBSLAM3学习.md)
     - [IMU预积分](./Algorithm/IMU预积分.md)
     - [cartographer相关参数解析](./Algorithm/cartographer相关参数解析.md)
+    - [lightning-lm代码阅读](./Algorithm/lightning-lm.md)
+    
   - **Planning**
     - [局部规划算法DWA](./Algorithm/局部规划算法DWA.md)
     - [路径规划之A*算法](./Algorithm/路径规划之A-star算法.md)
     - [路径规划之Theta*算法](./Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md)
     - [占据栅格地图构建](./Algorithm/占据栅格地图构建.md)
     - [ros2 cost function](./Algorithm/ros2_cost_function.md)
+    
   - **ROS**
     - [ROS指令](./C++/ROS指令.md)
     - [ROS激光雷达信息点云信息和PCL信息之间的转换](./Algorithm/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
@@ -58,12 +58,19 @@
     - [ROS中Remap(话题重映射)的两种使用方法](./Algorithm/Ros中Remap(话题重映射)的两种使用方法.md)
     - [ROS2的Launch文件简介](./Algorithm/ROS2的Launch文件简介.md)
     - [ROS2 Command](./Algorithm/ROS2_command.md)
+    
   - [匈牙利算法](./Algorithm/匈牙利算法.md)
+
   - [2d激光雷达运动补偿方法(去畸变)](./Algorithm/2d激光雷达运动补偿方法(去畸变).md)
+
   - [激光雷达性能指标](./Algorithm/激光雷达性能指标.md)
+
   - [激光雷达与相机外参联合标定调研](./Algorithm/激光雷达与相机外参联合标定调研.md)
+
   - [旋转下激光雷达数据与地图产生错位的问题](./Algorithm/旋转下激光雷达数据与地图产生错位的问题.md)
+
   - 待上传
+
 - ### C++
   - [常用函数](./C++/常用函数.md)
   - [c++并发与多线程](./C++/c++并发与多线程.md)
@@ -98,9 +105,10 @@
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
     - [find_package指令](./C++/Find_package.md)
+  
 - ### 配置文档
   - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
-  - [xavier装机文档](slam_config/xavier装机文档.md)
+  - [xavier装机文档](slam_config/Ubuntu-xavier.md)
   - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
   - [Rosdep_update_falied](slam_config/Rosdep_update_failed.md)
   - [轨迹评估介绍与evo工具使用](slam_config/轨迹评估介绍与evo工具使用.md)
@@ -112,13 +120,16 @@
   - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
   - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
   - [VSCode使用Clangd](./slam_config/VSCode使用Clangd.md)
+  
 - ### Linux
   - 待上传
+  
 - ### QT编程
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
   - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
+  
 - ### command
   - [Git_Command](./command/Git_Command.md)
   - [Git中submodule的使用](./command/Git中submodule的使用.md)
@@ -126,10 +137,9 @@
   - [Git rebase的两种用法](./command/git_rebase的两种用法.md)
   - [Docker简要教程](./command/Docker简要教程.md)
   - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
-  - [LIO-SAM运行](./command/LIO-SAM运行.md)
-  - [Orb-slam2运行](./command/Orb-slam2运行.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
+  - [conda使用](./command/conda_常用命令速查表.md)
 ## Resource
 #### Online Learning
 - 文献检索：研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
@@ -171,7 +181,7 @@
 
 - ### XMind
 
-  ​最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
+  最好的思维导图软件，没有之一，可惜高级功能要收费，这里分享一个破解版，可以无水印导出。下载安装直接使用，破解版软件不能登录不用我多说吧，亲测无病毒，放心使用。
 
   - [Windows版本](https://pan.baidu.com/s/1oFZS5czuOF2hEbw1LfxgIw)	提取码：`1314`
   - [Linux版本](https://pan.baidu.com/s/1eiOgY8p2Ytlt8AaEUIHelQ)	提取码：`1314`
