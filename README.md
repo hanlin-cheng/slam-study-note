@@ -1,17 +1,19 @@
-# Study-note from HanLin
+# SLAM Study Notes
 
 本仓库包含以下内容：
 
-1. 一些学习的[心得笔记](#心的笔记)
-2. 一些可能有用的[电子书籍和学习资源](#Resource)
-3. 一些[学习软件](#Software)的安装（仅供自身学习使用，亲测无病毒，放心使用！）
-4. 一些[杂项](#Other)
-6. TODO......
+1. [心得笔记](#心得笔记)：算法、SLAM、规划、ROS、C++、Linux、Qt 与环境配置
+2. [学习资源](#resource)：在线学习资源与电子书
+3. [软件](#software)：常用学习软件与安装说明
+4. [其他](#other)：其他工具与实践记录
+5. TODO
 
-*注：后续文档撰写使用obsidian打开*
+> 注：仓库中的 Markdown 文档推荐使用 [Obsidian](https://obsidian.md/) 打开。
 
 ## 心得笔记
+
 ### Algorithm
+
   - **Math and Matrix**
     - [多维高斯分布](./Algorithm/多维高斯分布.md)
     - [正态分布](./Algorithm/正态分布.md)
@@ -37,18 +39,20 @@
     - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./Algorithm/SLAM中的位姿变换与轨迹评价指标.md)
     - [二维空间中的点坐标旋转关系](./Algorithm/二维空间中的点坐标旋转关系.md)
     - [双目立体视觉SAD匹配算法](./Algorithm/双目立体视觉SAD匹配算法.md)
-    - [SVD与非线性优化在最小二乘问题中的区别](./Algorithm/SVD与非线性优化在最小二乘问题中的区别)
+    - [SVD与非线性优化在最小二乘问题中的区别](./Algorithm/SVD与非线性优化在最小二乘问题中的区别.md)
     - [ORBSLAM3学习](./Algorithm/ORBSLAM3学习.md)
     - [IMU预积分](./Algorithm/IMU预积分.md)
     - [cartographer相关参数解析](./Algorithm/cartographer相关参数解析.md)
     - [lightning-lm代码阅读](./Algorithm/lightning-lm.md)
+    - [多线激光雷达与组合惯导外参标定](./Algorithm/lidar_calibration_cn.pdf)
     
   - **Planning**
     - [局部规划算法DWA](./Algorithm/局部规划算法DWA.md)
     - [路径规划之A*算法](./Algorithm/路径规划之A-star算法.md)
     - [路径规划之Theta*算法](./Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md)
+    - [Voronoi Graph](<./Algorithm/Voronoi Graph.md>)
     - [占据栅格地图构建](./Algorithm/占据栅格地图构建.md)
-    - [ros2 cost function](./Algorithm/ros2_cost_function.md)
+    - [ROS 2 Cost Function](./Algorithm/ros2_cost_function.md)
     
   - **ROS**
     - [ROS指令](./C++/ROS指令.md)
@@ -56,8 +60,8 @@
     - [ROS Nodehandle句柄的理解](./Algorithm/ROSNodehandle句柄的理解.md)
     - [ROS param 的使用](./Algorithm/ROSparam的使用.md)
     - [ROS中Remap(话题重映射)的两种使用方法](./Algorithm/Ros中Remap(话题重映射)的两种使用方法.md)
-    - [ROS2的Launch文件简介](./Algorithm/ROS2的Launch文件简介.md)
-    - [ROS2 Command](./Algorithm/ROS2_command.md)
+    - [ROS 2 的 Launch 文件简介](./Algorithm/ROS2的Launch文件简介.md)
+    - [ROS 2 Command](./Algorithm/ROS2_command.md)
     
   - [匈牙利算法](./Algorithm/匈牙利算法.md)
 
@@ -69,9 +73,8 @@
 
   - [旋转下激光雷达数据与地图产生错位的问题](./Algorithm/旋转下激光雷达数据与地图产生错位的问题.md)
 
-  - 待上传
+### C++
 
-- ### C++
   - [常用函数](./C++/常用函数.md)
   - [c++并发与多线程](./C++/c++并发与多线程.md)
   - [STL容器使用时机](./C++/STL容器使用时机.md)
@@ -91,7 +94,7 @@
   - [数据类型字节数](./C++/数据类型字节数.md)
   - [protobuf基本使用](./C++/Protocol_Buffers基本使用.md)
   - [EigenGeometry](./C++/EigenGeometry.md)
-  - [Eigen几何模块的引入](./C++/EigenGeometry.md)
+  - [Eigen几何模块的引入](./C++/Eigen几何模块的引入.md)
   - [gflags使用](./C++/gflags使用.md)
   - [左值与右值](./C++/左值与右值.md)
   - [C++下const增强](./C++/C++下const增强.md)
@@ -100,46 +103,53 @@
   - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
   - [boostcondition_variable](./C++/boostcondition_variable.md)
   - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
-  - [resize和reserve](./C++/如何正确使用resize和reserve)
-  - **Cmake**
+  - [resize和reserve](./C++/如何正确使用resize和reserve.md)
+  - **CMake**
     - [CMakelists基础指令](./C++/CMakelists基础指令.md)
     - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
     - [find_package指令](./C++/Find_package.md)
   
-- ### 配置文档
-  - [ubuntu18.04系统下安装turtlebot2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
-  - [xavier装机文档](slam_config/Ubuntu-xavier.md)
+### 配置文档
+
+  - [Ubuntu 18.04 系统下安装 TurtleBot 2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
+  - [Xavier 装机文档](slam_config/Ubuntu-xavier.md)
   - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
-  - [Rosdep_update_falied](slam_config/Rosdep_update_failed.md)
+  - [rosdep update failed](slam_config/Rosdep_update_failed.md)
   - [轨迹评估介绍与evo工具使用](slam_config/轨迹评估介绍与evo工具使用.md)
-  - [基于ROS的opencv安装与卸载](slam_config/基于ROS的opencv安装与卸载.md)
-  - [激光+imu标定(lidar_align)](slam_config/激光+imu标定(lidar_align​).pdf)
-  - [激光+imu标定(lidar_imu_calib)](slam_config/激光雷达与IMU联合标定(lidar_IMU_calib).md)
-  - [相机+imu标定](slam_config/相机+imu标定.pdf)
+  - [基于 ROS 的 OpenCV 安装与卸载](slam_config/基于ROS的opencv安装与卸载.md)
+  - [激光雷达 + IMU 标定（lidar_align）](slam_config/激光+imu标定(lidar_align​).pdf)
+  - [激光雷达 + IMU 标定（lidar_imu_calib）](slam_config/激光雷达与IMU联合标定(lidar_IMU_calib).md)
+  - [相机 + IMU 标定](slam_config/相机+imu标定.pdf)
   - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
-  - [ubuntu18.04环境配置](./slam_config/Ubuntu18.04环境配置.md)
+  - [Matlab 标定单目相机内参](./slam_config/Matlab标定单目相机内参.md)
+  - [Ubuntu 18.04 环境配置](./slam_config/Ubuntu18.04环境配置.md)
   - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
-  - [VSCode使用Clangd](./slam_config/VSCode使用Clangd.md)
+  - [VS Code 使用 Clangd](./slam_config/VSCode使用Clangd.md)
+  - [使用 Docker 制作 ROS 2 镜像并集成 GitLab CI/CD](./slam_config/ros2_cicd_gitlab.md)
   
-- ### Linux
-  - 待上传
+### Linux
+
+  - [认识 BASH 这个 Shell](./Linux/认识BASH这个Shell.md)
+  - [Shell 的变量功能](./Linux/Shell的变量功能.md)
   
-- ### QT编程
+### Qt 编程
+
   - [项目默认文件介绍](./QT/项目默认文件介绍.md)
   - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
   - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
   - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
   
-- ### command
+### Command
+
   - [Git_Command](./command/Git_Command.md)
   - [Git中submodule的使用](./command/Git中submodule的使用.md)
   - [Git cherry-pick的使用](./command/git_cherry-pick.md)
   - [Git rebase的两种用法](./command/git_rebase的两种用法.md)
   - [Docker简要教程](./command/Docker简要教程.md)
-  - [Ubuntu-xavier](./command/Ubuntu-xavier.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
-  - [ROS查看ZED节点此效果](./command/ROS查看ZED节点效果.md)
+  - [ROS查看ZED节点效果](./command/ROS查看ZED节点效果.md)
   - [conda使用](./command/conda_常用命令速查表.md)
+
 ## Resource
 #### Online Learning
 - 文献检索：研究僧的好伴侣，[Sci-Hub](https://www.sci-hub.ren/)和[arXiv](https://arxiv.org/)，基本顶会论文都可以免费下载阅读。
@@ -217,6 +227,8 @@
 
 ## Other
 
+- [Stable Diffusion WebUI 手动安装详细步骤](./something_else/stable-diffusion-webui手动安装详细步骤.md)
+- [如何在 Linux 中使用 Clash](./something_else/如何在Linux中使用Clash.md)
 - [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的^_^。
 
 ## 维护者
@@ -224,4 +236,3 @@
 [@HanLin](https://github.com/hanlin-cheng)
 
 > *关山难越，谁悲失路之人。萍水相逢，尽是他乡之客。*
-
