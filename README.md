@@ -44,6 +44,7 @@
     - [IMU预积分](./Algorithm/IMU预积分.md)
     - [cartographer相关参数解析](./Algorithm/cartographer相关参数解析.md)
     - [lightning-lm代码阅读](./Algorithm/lightning-lm.md)
+    - [cuVSLAM 代码阅读](./Algorithm/cuVSLAM.md)
     - [多线激光雷达与组合惯导外参标定](./Algorithm/lidar_calibration_cn.pdf)
     
   - **Planning**
@@ -146,6 +147,7 @@
   - [Git cherry-pick的使用](./command/git_cherry-pick.md)
   - [Git rebase的两种用法](./command/git_rebase的两种用法.md)
   - [Docker简要教程](./command/Docker简要教程.md)
+  - [NVIDIA Jetson Xavier / Orin 常用命令](./command/Ubuntu-xavier.md)
   - [Xsens传感器调用](./command/Xsens传感器调用.md)
   - [ROS查看ZED节点效果](./command/ROS查看ZED节点效果.md)
   - [conda使用](./command/conda_常用命令速查表.md)

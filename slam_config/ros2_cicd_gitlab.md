@@ -1,32 +1,30 @@
-# 使用 Docker 制作 ROS2 镜像并集成 GitLab CI/CD 指南
+# 使用 Docker 制作 ROS 2 镜像并集成 GitLab CI/CD
 
 本文档说明如何：
 
-1. 选择合适的 ROS2 Docker 基础镜像  
-2. 编写用于项目 CI/CD 的 Dockerfile  
-3. 将镜像推送到 GitLab Registry  
-4. 编写 `.gitlab-ci.yml` 定义 CI/CD 流程  
+1. 选择合适的 ROS 2 Docker 基础镜像
+2. 编写用于项目 CI/CD 的 Dockerfile
+3. 将镜像推送到 GitLab Registry
+4. 编写 `.gitlab-ci.yml` 定义 CI/CD 流程
 5. 在 GitLab 项目中配置 CI/CD
 
 > 假设你对 Docker 和 GitLab 有基本认识，并且已经在 GitLab 中开启了 Container Registry 功能（项目 Settings → General / Settings → Packages & Registries）。
 
----
+示例项目地址为：<https://gitlab.fftaicorp.com/fourier_infinityrepo/perceptionnav/humanoidnav>。
 
-假设我需要ci/cd的仓库地址是https://gitlab.fftaicorp.com/fourier_infinityrepo/perceptionnav/humanoidnav
+## 1. 从 `osrf/docker_images` 选择合适的 ROS 2 基础镜像
 
-## 1. 从 `osrf/docker_images` 选择合适的 ROS2 基础镜像
-
-OSRF 官方维护了 ROS/ROS2 的 Docker 镜像仓库：
+OSRF 官方维护了 ROS/ROS 2 的 Docker 镜像仓库：
 
 - GitHub 仓库：<https://github.com/osrf/docker_images>  
 - Docker Hub 镜像：<https://hub.docker.com/r/osrf/ros>
 
-### 1.1 确定项目需要的 ROS2 版本和基础系统
+### 1.1 确定项目需要的 ROS 2 版本和基础系统
 
 在选择镜像前，确认以下信息：
 
-- ROS2 发行版：如 `humble`, `iron`, `jazzy`  
-- 基础系统：例如 `ubuntu:22.04`  
+- ROS 2 发行版：如 `humble`、`iron`、`jazzy`
+- 基础系统：例如 `ubuntu:22.04`
 - 是否需要图形环境或仿真（desktop / ros-base / ros-core）
 
 **建议（CI 环境）**：
@@ -35,7 +33,9 @@ OSRF 官方维护了 ROS/ROS2 的 Docker 镜像仓库：
 
 示例镜像：
 
+```text
 ros:humble-ros-base
+```
 
 
 ### 1.2 本地验证镜像（推荐）
@@ -70,7 +70,7 @@ ros2 --help
 ### 2.1 Dockerfile 示例
 
 ```dockerfile
-# 1. 使用 OSRF 提供的 ROS2 基础镜像
+# 1. 使用 OSRF 提供的 ROS 2 基础镜像
 FROM ros:humble-ros-base
 
 # 2. 维护者信息（可选）
@@ -125,51 +125,50 @@ docker build --no-cache -t ros2-ci:humble -f Dockerfile.ci .
 docker run -it --rm ros2-ci:humble bash
 ```
 
-## 3. 将镜像上传到 GitLab Registry
+## 3. 将镜像上传到 Container Registry
 
-假设 GitLab Registry 地址如下：
+本文示例使用的 Registry 主机为：
 
-```bash
-https://gitlab.fftaicorp.com/fourier_infinityrepo/perceptionnav/humanoidnav
+```text
+docker.fftaicorp.com
 ```
 
 **确认 GitLab 项目已启用 Container Registry**
 
 - 在 GitLab 项目中进入：
-   `Settings → General → Packages & Registries → Container Registry`
+  `Settings → General → Packages & Registries → Container Registry`
 - 如果显示可用，说明可以上传镜像。
 
 ### 3.1 登录 Registry
 
 ```bash
-docker login gitlab.fftaicorp.com:5050
+docker login docker.fftaicorp.com
 ```
 
-系统会提示输入 **用户名** 和 **Personal Access Token**（或者 GitLab 密码，推荐使用 Token）。
+系统会提示输入用户名和访问令牌。
 
 - **用户名**：GitLab 用户名
-- **密码**：GitLab Personal Access Token（需要勾选 `read_registry` + `write_registry` 权限）
+- **密码**：GitLab Personal Access Token、Deploy Token 或其他 Registry 凭证；推送需要 `read_registry` 和 `write_registry` 权限
 
 登录成功后会显示 `Login Succeeded`。
 
 ### 3.2 推送镜像
 
-GitLab Registry 的镜像命名格式：
+Registry 镜像通常采用以下命名格式：
 
-```
-<gitlab-domain>:<port>/<group>/<project>/<image-name>:<tag>
+```text
+<registry-host>/<namespace>/<image-name>:<tag>
 ```
 
 ```bash
-docker tag ros2-ci:humble gitlab.fftaicorp.com:5050/fourier_infinityrepo/perceptionnav/humanoidnav/ros2-ci:humble
-docker push gitlab.fftaicorp.com:5050/fourier_infinityrepo/perceptionnav/humanoidnav/ros2-ci:humble
+docker tag ros2-ci:humble docker.fftaicorp.com/navigation_humble/cicd:v1.3
+docker push docker.fftaicorp.com/navigation_humble/cicd:v1.3
 ```
 
-推送后可在 GitLab
-Packages & Registries → Container Registry 查看。
+推送后可在 GitLab 的 `Packages & Registries → Container Registry` 页面查看。
 
 
-## 4. 编写 .gitlab-ci.yml 定义 CI/CD 操作
+## 4. 编写 `.gitlab-ci.yml` 定义 CI/CD 操作
 
 在仓库根目录创建：
 
@@ -198,10 +197,9 @@ Packages & Registries → Container Registry 查看。
 
 ### 4.1 示例 CI 配置
 
-以下只是示例。请根据具体需求进行配置。[Gitlab Docs](https://docs.gitlab.com/ci/yaml/)
+以下只是示例，请根据具体需求进行配置。完整语法参见 [GitLab CI/CD YAML 文档](https://docs.gitlab.com/ci/yaml/)。
 
-
-```dockerfile
+```yaml
 stages:
   - build
   - test
@@ -209,7 +207,7 @@ stages:
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-image: "gitlab.example.com:5050/group/project/ros2-ci:humble"
+image: "docker.fftaicorp.com/navigation_humble/cicd:v1.3"
 
 before_script:
   - source /opt/ros/humble/setup.bash
@@ -225,12 +223,13 @@ build:
     - cp -r ../src ./
     - colcon build --merge-install
   artifacts:
+    when: always
     paths:
-      - build_ws/install
+      - build_ws/
     expire_in: 1 week
-  only:
-    - merge_requests
-    - main
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
 test:
   stage: test
@@ -242,34 +241,36 @@ test:
     - source install/setup.bash
     - colcon test
     - colcon test-result --verbose
-  only:
-    - merge_requests
-    - main
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 ```
 
 ## 5. 在 GitLab 配置项目 CI/CD
 
 ### 5.1 确保有可用 Runner
 
-配置Runner，详见[Gitlab Docs](https://docs.gitlab.com/runner/)
+配置 Runner，详见 [GitLab Runner 文档](https://docs.gitlab.com/runner/)。
 
- - 可以使用 GitLab Shared Runner 或自建 Runner
+- 可以使用 GitLab Shared Runner 或自建 Runner
 
- - 必须支持 Docker executor
+- 必须支持 Docker executor
 
- - Runner 需要能够访问 GitLab Registry
+- Runner 需要能够访问 GitLab Registry
+
+如果镜像仓库需要认证，还应在 Runner 侧配置拉取凭证，或在项目中设置受保护、掩码的 `DOCKER_AUTH_CONFIG` 变量。该认证发生在 job 启动前，不能依赖 job 的 `before_script` 执行 `docker login`。
 
 ### 5.2 配置环境变量（可选）
 
-根据项目需求配置环境变量。请见[Gitlab Docs](https://docs.gitlab.com/ci/variables/)
+根据项目需求配置环境变量，参见 [GitLab CI/CD variables 文档](https://docs.gitlab.com/ci/variables/)。
 
 
 ### 5.3 提交代码触发流水线
 
 ```bash
 git add Dockerfile.ci .gitlab-ci.yml
-git commit -m "Add ROS2 CI docker image and GitLab CI config"
+git commit -m "Add ROS 2 CI Docker image and GitLab CI config"
 git push
 ```
 
-然后在网上查看Pipeline状态。
+然后在 GitLab 项目的 `Build → Pipelines` 页面查看流水线状态。
