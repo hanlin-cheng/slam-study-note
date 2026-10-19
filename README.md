@@ -2,155 +2,144 @@
 
 本仓库包含以下内容：
 
-1. [心得笔记](#心得笔记)：算法、SLAM、规划、ROS、C++、Linux、Qt 与环境配置
+1. [心得笔记](#心得笔记)：数学基础、SLAM 与机器人、ROS 与中间件、C++ 开发、开发工具与工程实践、Linux 与嵌入式、Qt 开发、应用与杂记
 2. [学习资源](#resource)：在线学习资源与电子书
 3. [软件](#software)：常用学习软件与安装说明
 4. [其他](#other)：其他工具与实践记录
 5. TODO
 
-> 注：仓库中的 Markdown 文档推荐使用 [Obsidian](https://obsidian.md/) 打开。
 
 ## 心得笔记
 
-### Algorithm
+### 数学基础
 
-  - **Math and Matrix**
-    - [多维高斯分布](./Algorithm/多维高斯分布.md)
-    - [正态分布](./Algorithm/正态分布.md)
-    - [雅可比矩阵和海塞矩阵](./Algorithm/雅克比矩阵和海塞矩阵.md)
-    - [高斯牛顿法](./Algorithm/高斯牛顿法.md)
-    - [归一化与标准化](./Algorithm/归一化与标准化.md)
-    - [多元函数的泰勒展开式](./Algorithm/多元函数的泰勒展开式.md)
-    - [矩阵的奇异值分解](./Algorithm/矩阵的奇异值分解.md)
-    - [矩阵微分](./Algorithm/矩阵微分-清华.pdf)
-    - [向量积(矢积)与数量积(标积)的区别](./Algorithm/向量积(矢积)与数量积(标积)的区别.md)
-    - [协方差矩阵](./Algorithm/协方差矩阵.md)
-    - [超定方程组的最小二乘解](./Algorithm/超定方程组的最小二乘解.md)
-    
-  - **SLAM**
-    - [相机参数DKPR的解释](./Algorithm/相机参数DKPR的解释.md)
-    - [灰度质心法](./Algorithm/灰度质心法.md)
-    - [单目视觉的尺度等价性](./Algorithm/单目视觉的尺度等价性.md)
-    - [为什么使用齐次坐标](./Algorithm/为什么使用齐次坐标.md)
-    - [重投影误差](./Algorithm/重投影误差.md)
-    - [图优化g2o](./Algorithm/图优化g2o.pdf)
-    - [本质矩阵/基础矩阵/自由度及其解法](./Algorithm/本质矩阵基础矩阵的自由度及其解法.md)
-    - [欧拉角与坐标系旋转变换](./Algorithm/欧拉角与坐标系旋转变换.md)
-    - [SLAM中的位姿变换与轨迹评价指标APE、RPE、ATE、RTE](./Algorithm/SLAM中的位姿变换与轨迹评价指标.md)
-    - [二维空间中的点坐标旋转关系](./Algorithm/二维空间中的点坐标旋转关系.md)
-    - [双目立体视觉SAD匹配算法](./Algorithm/双目立体视觉SAD匹配算法.md)
-    - [SVD与非线性优化在最小二乘问题中的区别](./Algorithm/SVD与非线性优化在最小二乘问题中的区别.md)
-    - [ORBSLAM3学习](./Algorithm/ORBSLAM3学习.md)
-    - [IMU预积分](./Algorithm/IMU预积分.md)
-    - [cartographer相关参数解析](./Algorithm/cartographer相关参数解析.md)
-    - [lightning-lm代码阅读](./Algorithm/lightning-lm.md)
-    - [cuVSLAM 代码阅读](./Algorithm/cuVSLAM.md)
-    - [多线激光雷达与组合惯导外参标定](./Algorithm/lidar_calibration_cn.pdf)
-    
-  - **Planning**
-    - [局部规划算法DWA](./Algorithm/局部规划算法DWA.md)
-    - [路径规划之A*算法](./Algorithm/路径规划之A-star算法.md)
-    - [路径规划之Theta*算法](./Algorithm/Theta_star-Any-Angle-Path-Planning-on-Grids.md)
-    - [Voronoi Graph](<./Algorithm/Voronoi Graph.md>)
-    - [占据栅格地图构建](./Algorithm/占据栅格地图构建.md)
-    - [ROS 2 Cost Function](./Algorithm/ros2_cost_function.md)
-    
-  - **ROS**
-    - [ROS指令](./C++/ROS指令.md)
-    - [ROS激光雷达信息点云信息和PCL信息之间的转换](./Algorithm/ROS激光雷达信息、点云信息和PCL信息之间的转换.md)
-    - [ROS Nodehandle句柄的理解](./Algorithm/ROSNodehandle句柄的理解.md)
-    - [ROS param 的使用](./Algorithm/ROSparam的使用.md)
-    - [ROS中Remap(话题重映射)的两种使用方法](./Algorithm/Ros中Remap(话题重映射)的两种使用方法.md)
-    - [ROS 2 的 Launch 文件简介](./Algorithm/ROS2的Launch文件简介.md)
-    - [ROS 2 Command](./Algorithm/ROS2_command.md)
-    
-  - [匈牙利算法](./Algorithm/匈牙利算法.md)
+- [SVD与非线性优化在最小二乘问题中的区别](<math/SVD与非线性优化在最小二乘问题中的区别.md>)
+- [为什么使用齐次坐标](<math/为什么使用齐次坐标.md>)
+- [二维空间中的点坐标旋转关系](<math/二维空间中的点坐标旋转关系.md>)
+- [匈牙利算法](<math/匈牙利算法.md>)
+- [协方差矩阵](<math/协方差矩阵.md>)
+- [向量积(矢积)与数量积(标积)的区别](<math/向量积(矢积)与数量积(标积)的区别.md>)
+- [多元函数的泰勒展开式](<math/多元函数的泰勒展开式.md>)
+- [多维高斯分布](<math/多维高斯分布.md>)
+- [归一化与标准化](<math/归一化与标准化.md>)
+- [欧拉角与坐标系旋转变换](<math/欧拉角与坐标系旋转变换.md>)
+- [正态分布](<math/正态分布.md>)
+- [矩阵的奇异值分解](<math/矩阵的奇异值分解.md>)
+- [超定方程组的最小二乘解](<math/超定方程组的最小二乘解.md>)
+- [雅克比矩阵和海塞矩阵](<math/雅克比矩阵和海塞矩阵.md>)
+- [高斯牛顿法](<math/高斯牛顿法.md>)
 
-  - [2d激光雷达运动补偿方法(去畸变)](./Algorithm/2d激光雷达运动补偿方法(去畸变).md)
+### SLAM 与机器人
 
-  - [激光雷达性能指标](./Algorithm/激光雷达性能指标.md)
+- [2d激光雷达运动补偿方法(去畸变)](<robotics/2d激光雷达运动补偿方法(去畸变).md>)
+- [IMU预积分](<robotics/IMU预积分.md>)
+- [Matlab标定单目相机内参](<robotics/Matlab标定单目相机内参.md>)
+- [1. ORB-SLAM3中为什么要进行三次IMU初始化](<robotics/ORBSLAM3学习.md>)
+- [SLAM中的位姿变换与轨迹评价指标:APE、RPE、ATE、RTE](<robotics/SLAM中的位姿变换与轨迹评价指标.md>)
+- [Theta*: Any-Angle Path Planning on Grids](<robotics/Theta_star-Any-Angle-Path-Planning-on-Grids.md>)
+- [Voronoi Graph](<robotics/Voronoi Graph.md>)
+- [cartographer相关参数解析](<robotics/cartographer相关参数解析.md>)
+- [cuVSLAM：CUDA 加速的视觉里程计与建图](<robotics/cuVSLAM.md>)
+- [lightning-lm](<robotics/lightning-lm.md>)
+- [ros2 cost function](<robotics/ros2_cost_function.md>)
+- [turbot建图，导航算法汇总](<robotics/turbot建图导航算法汇总.md>)
+- [ubuntu 18.04系统下安装turtlebot2](<robotics/ubuntu18.04系统下安装turtlebot2.md>)
+- [ORB-SLAM3 and HF-NET安装(Windows)](<robotics/windows下orb和hfnet安装.md>)
+- [单目视觉的尺度等价性](<robotics/单目视觉的尺度等价性.md>)
+- [占据栅格地图构建（Occupancy Grid Map）](<robotics/占据栅格地图构建.md>)
+- [双目立体视觉SAD匹配算法](<robotics/双目立体视觉SAD匹配算法.md>)
+- [局部规划算法：DWA算法原理](<robotics/局部规划算法DWA.md>)
+- [旋转下激光雷达数据与地图产生错位的问题](<robotics/旋转下激光雷达数据与地图产生错位的问题.md>)
+- [本质矩阵，基础矩阵，自由度及其解法](<robotics/本质矩阵基础矩阵的自由度及其解法.md>)
+- [激光雷达与IMU联合标定(lidar_IMU_calib）](<robotics/激光雷达与IMU联合标定(lidar_IMU_calib).md>)
+- [激光雷达与相机外参联合标定调研](<robotics/激光雷达与相机外参联合标定调研.md>)
+- [激光雷达性能指标](<robotics/激光雷达性能指标.md>)
+- [灰度质心法](<robotics/灰度质心法.md>)
+- [相机参数DKPR的解释](<robotics/相机参数DKPR的解释.md>)
+- [路径规划之A*算法](<robotics/路径规划之A-star算法.md>)
+- [轨迹评估介绍与evo工具使用](<robotics/轨迹评估介绍与evo工具使用.md>)
+- [重投影误差](<robotics/重投影误差.md>)
 
-  - [激光雷达与相机外参联合标定调研](./Algorithm/激光雷达与相机外参联合标定调研.md)
+### ROS 与中间件
 
-  - [旋转下激光雷达数据与地图产生错位的问题](./Algorithm/旋转下激光雷达数据与地图产生错位的问题.md)
+- [ROS2_command](<ros/ROS2_command.md>)
+- [ROS2的Launch文件简介](<ros/ROS2的Launch文件简介.md>)
+- [ROS Nodehandle句柄的理解](<ros/ROSNodehandle句柄的理解.md>)
+- [ROS param 的使用](<ros/ROSparam的使用.md>)
+- [ROS指令](<ros/ROS指令.md>)
+- [ros查看ZED节点效果](<ros/ROS查看ZED节点效果.md>)
+- [ROS激光雷达信息、点云信息和PCL信息之间的转换](<ros/ROS激光雷达信息、点云信息和PCL信息之间的转换.md>)
+- [Rosdep update failed](<ros/Rosdep_update_failed.md>)
+- [Ros中Remap(话题重映射)的两种使用方法](<ros/Ros中Remap(话题重映射)的两种使用方法.md>)
 
-### C++
+### C++ 开发
 
-  - [常用函数](./C++/常用函数.md)
-  - [c++并发与多线程](./C++/c++并发与多线程.md)
-  - [STL容器使用时机](./C++/STL容器使用时机.md)
-  - [类型转换](./C++/转换.md)
-  - [Opencv_Mat](./C++/Opencv_Mat.md)
-  - [const成员函数](./C++/const成员函数.md)
-  - [cin与get()getline()输入问题](./C++/cin与get()getline()输入问题.md)
-  - [string和cstring头文件的区别](./C++/string和cstring头文件的区别.md)
-  - [常规函数与内联函数](./C++/常规函数与内联函数.md)
-  - [单例模式](./C++/单例模式.md)
-  - [二叉树遍历](./C++/二叉树遍历.md)
-  - [构造函数的调用时机](./C++/构造函数的调用时机.md)
-  - [函数指针的定义方式](./C++/函数指针的定义方式.md)
-  - [计算时间](./C++/计算时间.md)
-  - [类知识点](./C++/类知识点.md)
-  - [内联函数](./C++/内联函数.md)
-  - [数据类型字节数](./C++/数据类型字节数.md)
-  - [protobuf基本使用](./C++/Protocol_Buffers基本使用.md)
-  - [EigenGeometry](./C++/EigenGeometry.md)
-  - [Eigen几何模块的引入](./C++/Eigen几何模块的引入.md)
-  - [gflags使用](./C++/gflags使用.md)
-  - [左值与右值](./C++/左值与右值.md)
-  - [C++下const增强](./C++/C++下const增强.md)
-  - [C++11chrono库](./C++/C++11chrono库.md)
-  - [GoogleTest](./C++/GoogleTest.md)
-  - [c++ boost circular_buffer](./C++/c++_boost_circular_buffer.md)
-  - [boostcondition_variable](./C++/boostcondition_variable.md)
-  - [设计模式之生产者-消费者模型](./C++/设计模式之生产者-消费者模型.md)
-  - [resize和reserve](./C++/如何正确使用resize和reserve.md)
-  - **CMake**
-    - [CMakelists基础指令](./C++/CMakelists基础指令.md)
-    - [CMakeLists简易模板](./C++/CMakeLists简易模板.md)
-    - [find_package指令](./C++/Find_package.md)
-  
-### 配置文档
+- [C++11:chrono库 (日期和时间库)](<cpp/C++11chrono库.md>)
+- [C++下const增强](<cpp/C++下const增强.md>)
+- [EigenGeometry](<cpp/EigenGeometry.md>)
+- [Eigen几何模块的引入](<cpp/Eigen几何模块的引入.md>)
+- [Opencv Mat](<cpp/Opencv_Mat.md>)
+- [Protocol Buffers基本使用](<cpp/Protocol_Buffers基本使用.md>)
+- [STL容器使用时机](<cpp/STL容器使用时机.md>)
+- [boost::condition_variable](<cpp/boostcondition_variable.md>)
+- [c++ boost circular_buffer](<cpp/c++_boost_circular_buffer.md>)
+- [c++并发与多线程](<cpp/c++并发与多线程.md>)
+- [cin与get（）getline（）输入问题](<cpp/cin与get()getline()输入问题.md>)
+- [const成员函数](<cpp/const成员函数.md>)
+- [string和cstring头文件的区别](<cpp/string和cstring头文件的区别.md>)
+- [二叉树遍历](<cpp/二叉树遍历.md>)
+- [内联函数](<cpp/内联函数.md>)
+- [函数指针的定义方式](<cpp/函数指针的定义方式.md>)
+- [单例模式](<cpp/单例模式.md>)
+- [如何正确使用resize和reserve](<cpp/如何正确使用resize和reserve.md>)
+- [一、左值与右值](<cpp/左值与右值.md>)
+- [常用函数](<cpp/常用函数.md>)
+- [常规函数与内联函数](<cpp/常规函数与内联函数.md>)
+- [数据类型字节数](<cpp/数据类型字节数.md>)
+- [构造函数的调用时机](<cpp/构造函数的调用时机.md>)
+- [类知识点](<cpp/类知识点.md>)
+- [计算时间](<cpp/计算时间.md>)
+- [设计模式之生产者-消费者模型](<cpp/设计模式之生产者-消费者模型.md>)
+- [转换](<cpp/转换.md>)
 
-  - [Ubuntu 18.04 系统下安装 TurtleBot 2](slam_config/ubuntu18.04系统下安装turtlebot2.md)
-  - [Xavier 装机文档](slam_config/Ubuntu-xavier.md)
-  - [turbot建图导航算法](slam_config/turbot建图导航算法汇总.md)
-  - [rosdep update failed](slam_config/Rosdep_update_failed.md)
-  - [轨迹评估介绍与evo工具使用](slam_config/轨迹评估介绍与evo工具使用.md)
-  - [基于 ROS 的 OpenCV 安装与卸载](slam_config/基于ROS的opencv安装与卸载.md)
-  - [激光雷达 + IMU 标定（lidar_align）](slam_config/激光+imu标定(lidar_align​).pdf)
-  - [激光雷达 + IMU 标定（lidar_imu_calib）](slam_config/激光雷达与IMU联合标定(lidar_IMU_calib).md)
-  - [相机 + IMU 标定](slam_config/相机+imu标定.pdf)
-  - [激光雷达+相机标定](slam_config/激光雷达+相机标定.pdf)
-  - [Matlab 标定单目相机内参](./slam_config/Matlab标定单目相机内参.md)
-  - [Ubuntu 18.04 环境配置](./slam_config/Ubuntu18.04环境配置.md)
-  - [ORB-SLAM3 and HF-NET安装(Windows)](./slam_config/windows下orb和hfnet安装.md)
-  - [VS Code 使用 Clangd](./slam_config/VSCode使用Clangd.md)
-  - [使用 Docker 制作 ROS 2 镜像并集成 GitLab CI/CD](./slam_config/ros2_cicd_gitlab.md)
-  
-### Linux
+### 开发工具与工程实践
 
-  - [认识 BASH 这个 Shell](./Linux/认识BASH这个Shell.md)
-  - [Shell 的变量功能](./Linux/Shell的变量功能.md)
-  
-### Qt 编程
+- [CMakeLists简易模板](<engineering/CMakeLists简易模板.md>)
+- [CMakelists基础指令](<engineering/CMakelists基础指令.md>)
+- [Docker简要教程](<engineering/Docker简要教程.md>)
+- [Find_package](<engineering/Find_package.md>)
+- [Git Command](<engineering/Git_Command.md>)
+- [Git中submodule的使用](<engineering/Git中submodule的使用.md>)
+- [GoogleTest](<engineering/GoogleTest.md>)
+- [VSCode使用Clangd](<engineering/VSCode使用Clangd.md>)
+- [Conda 常用命令速查表](<engineering/conda_常用命令速查表.md>)
+- [gflags使用](<engineering/gflags使用.md>)
+- [git cherry-pick](<engineering/git_cherry-pick.md>)
+- [git rebase的两种用法](<engineering/git_rebase的两种用法.md>)
+- [使用 Docker 制作 ROS 2 镜像并集成 GitLab CI/CD](<engineering/ros2_cicd_gitlab.md>)
 
-  - [项目默认文件介绍](./QT/项目默认文件介绍.md)
-  - [qt点击按钮进行页面的切换](./QT/Qt点击按钮进行页面的切换.md)
-  - [qt迁移项目后修改时间大于当前时间](./QT/QT迁移项目后显示修改时间大于当前时间.md)
-  - [基于arm架构的NVIDIA Xavier安装Qt](./QT/基于arm架构的NVIDIA_Xavier安装Qt.md)
-  
-### Command
+### Linux 与嵌入式
 
-  - [Git_Command](./command/Git_Command.md)
-  - [Git中submodule的使用](./command/Git中submodule的使用.md)
-  - [Git cherry-pick的使用](./command/git_cherry-pick.md)
-  - [Git rebase的两种用法](./command/git_rebase的两种用法.md)
-  - [Docker简要教程](./command/Docker简要教程.md)
-  - [NVIDIA Jetson Xavier / Orin 常用命令](./command/Ubuntu-xavier.md)
-  - [Xsens传感器调用](./command/Xsens传感器调用.md)
-  - [ROS查看ZED节点效果](./command/ROS查看ZED节点效果.md)
-  - [conda使用](./command/conda_常用命令速查表.md)
+- [NVIDIA Jetson Xavier / Orin 常用命令](<linux/Jetson常用命令.md>)
+- [单引号与双引号必须要成对，在上面的配置中仅有一个单引号，因此当你按下 enter 后，](<linux/Shell的变量功能.md>)
+- [NVIDIA Jetson Xavier / Orin 环境配置](<linux/Ubuntu-xavier.md>)
+- [Ubuntu18.04环境配置](<linux/Ubuntu18.04环境配置.md>)
+- [Xsens传感器调用](<linux/Xsens传感器调用.md>)
+- [基于ROS的opencv安装与卸载](<linux/基于ROS的opencv安装与卸载.md>)
+- [如何在Linux中使用Clash](<linux/如何在Linux中使用Clash.md>)
+- [认识BASH这个Shell](<linux/认识BASH这个Shell.md>)
+
+### Qt 开发
+
+- [QT迁移项目后显示修改时间大于当前时间](<qt/QT迁移项目后显示修改时间大于当前时间.md>)
+- [Qt点击按钮进行页面的切换](<qt/Qt点击按钮进行页面的切换.md>)
+- [基于arm架构的NVIDIA Xavier安装Qt](<qt/基于arm架构的NVIDIA_Xavier安装Qt.md>)
+- [项目默认文件介绍](<qt/项目默认文件介绍.md>)
+
+### 应用与杂记
+
+- [stable-diffusion-webui手动安装详细步骤](<misc/stable-diffusion-webui手动安装详细步骤.md>)
+- [获取Office 2021安装包及相关激活工具🛠️](<misc/获取Office2021安装包及相关激活工具.md>)
 
 ## Resource
 #### Online Learning
@@ -225,12 +214,12 @@
   ​	office是目前最常用的一类办公软件，使用它可以解决日常生活和工作中遇到的很多问题。里面包含了常用的办公组件而其中就包含了Word、Excel、PowerPoint、Access等。熟练掌握offic的操作技巧是对计算机工作者的基本要求,也可以帮助你提高工作效率出色的完成企业办公需求!新版的Office与之前的老版本相比，不仅是界面上有所改进，同时在功能上也带来一些新特性!
 
   - [Office全家桶](https://pan.baidu.com/s/1LJo45XDnsSltjNCaiWT0MQ) 提取码：`1314`
-  - [破解教程](./something_else/获取Office2021安装包及相关激活工具.md)
+  - [破解教程](misc/获取Office2021安装包及相关激活工具.md)
 
 ## Other
 
-- [Stable Diffusion WebUI 手动安装详细步骤](./something_else/stable-diffusion-webui手动安装详细步骤.md)
-- [如何在 Linux 中使用 Clash](./something_else/如何在Linux中使用Clash.md)
+- [Stable Diffusion WebUI 手动安装详细步骤](misc/stable-diffusion-webui手动安装详细步骤.md)
+- [如何在 Linux 中使用 Clash](linux/如何在Linux中使用Clash.md)
 - [科学上网](https://github.com/shadowsocks/shadowsocks-windows)：科学上网，国内的程序员论坛实在是不敢恭维。这里推荐一个比较不错的^_^。
 
 ## 维护者
