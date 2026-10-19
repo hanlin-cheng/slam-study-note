@@ -1,8 +1,10 @@
 # SLAM Study Notes
 
+[在线博客](https://hanlin-cheng.github.io/)
+
 本仓库包含以下内容：
 
-1. [心得笔记](#心得笔记)：数学基础、SLAM 与机器人、ROS 与中间件、C++ 开发、开发工具与工程实践、Linux 与嵌入式、Qt 开发、应用与杂记
+1. [心得笔记](#心得笔记)：数学基础、SLAM 与机器人、ROS 与中间件、C++ 开发、开发工具与工程实践、Linux 与嵌入式、Qt 开发、应用与杂记、论文阅读
 2. [学习资源](#resource)：在线学习资源与电子书
 3. [软件](#software)：常用学习软件与安装说明
 4. [其他](#other)：其他工具与实践记录
@@ -10,6 +12,8 @@
 
 
 ## 心得笔记
+
+[数学基础](#数学基础) · [SLAM 与机器人](#slam-与机器人) · [ROS 与中间件](#ros-与中间件) · [C++ 开发](#c-开发) · [开发工具与工程实践](#开发工具与工程实践) · [Linux 与嵌入式](#linux-与嵌入式) · [Qt 开发](#qt-开发) · [应用与杂记](#应用与杂记) · [论文阅读](#论文阅读)
 
 ### 数学基础
 
@@ -140,6 +144,107 @@
 
 - [stable-diffusion-webui手动安装详细步骤](<misc/stable-diffusion-webui手动安装详细步骤.md>)
 - [获取Office 2021安装包及相关激活工具🛠️](<misc/获取Office2021安装包及相关激活工具.md>)
+
+### 论文阅读
+
+- [NavGPT-3 (arXiv 2026)](<papers/2610.10787-NavGPT-3.md>)
+- [ASENA-VLN (arXiv 2026)](<papers/2609.39207-ASENA-VLN.md>)
+- [EvolvingNav (arXiv 2026)](<papers/2609.39166-EvolvingNav.md>)
+- [PanoVLN (arXiv 2026)](<papers/2609.34759-PanoVLN.md>)
+- [NavHarness (arXiv 2026)](<papers/2609.34276-NavHarness.md>)
+- [VGGT-Diff (arXiv 2026)](<papers/2609.33253-VGGT-Diff.md>)
+- [Spatial-Nav-100K (arXiv 2026)](<papers/2609.29934-Spatial-Nav-100K.md>)
+- [AdaGeoVLN (arXiv 2026)](<papers/2609.18789-AdaGeoVLN.md>)
+- [SURE-Map (arXiv 2026)](<papers/2609.15795-SURE-Map.md>)
+- [HarnessVLN (arXiv 2026)](<papers/2609.15195-HarnessVLN.md>)
+- [Functional SLAM (arXiv 2026)](<papers/2609.07497-Functional-SLAM.md>)
+- [OpenWAM (arXiv 2026)](<papers/2609.07398-OpenWAM.md>)
+- [BLASt3R (arXiv 2026)](<papers/2609.05210-BLASt3R.md>)
+- [LookStep (EMNLP 2026)](<papers/2609.02350-LookStep.md>)
+- [LightNav-0 (arXiv 2026)](<papers/2608.30935-LightNav-0.md>)
+- [SuperMap (arXiv 2026)](<papers/2608.22896-SuperMap.md>)
+- [LT-Mem (arXiv 2026)](<papers/2608.19059-LT-Mem.md>)
+- [Embodied Navigator (arXiv 2026)](<papers/2608.17512-Embodied-Navigator.md>)
+- [OccPlanner (arXiv 2026)](<papers/2608.14160-OccPlanner.md>)
+- [Map-Det3D (arXiv 2026)](<papers/2608.12179-Map-Det3D.md>)
+- [OccAnyScene (arXiv 2026)](<papers/2608.08696-OccAnyScene.md>)
+- [ULVN (arXiv 2026)](<papers/2608.06833-ULVN.md>)
+- [SLAMFormer Infinity (arXiv 2026)](<papers/2608.03429-SLAMFormer-Infinity.md>)
+- [X-NavDP (arXiv 2026)](<papers/2607.28560-X-NavDP.md>)
+- [TurboVLA (arXiv 2026)](<papers/2607.27205-TurboVLA.md>)
+- [VidMap (arXiv 2026)](<papers/2607.27194-VidMap.md>)
+- [DB-VIO (arXiv 2026)](<papers/2607.22123-DB-VIO.md>)
+- [VLN-AVP (arXiv 2026)](<papers/2607.17767-VLN-AVP.md>)
+- [SoftNav (arXiv 2026)](<papers/2607.14586-SoftNav.md>)
+- [i3DGS (arXiv 2026)](<papers/2607.14481-i3DGS.md>)
+- [Why Does Deep Learning Improve Visual SLAM? (arXiv 2026)](<papers/2607.06023-Why-Does-Deep-Learning-Improve-Visual-SLAM.md>)
+- [RoamFlow (arXiv 2026)](<papers/2606.29934-RoamFlow.md>)
+- [SCAN Planner (arXiv 2026)](<papers/2606.19555-SCAN-Planner.md>)
+- [OneCanvas (arXiv 2026)](<papers/2606.19253-OneCanvas.md>)
+- [Ultra-Fusion (arXiv 2026)](<papers/2606.21223-Ultra-Fusion.md>)
+- [Qwen-RobotNav (arXiv 2026)](<papers/2606.18112-Qwen-RobotNav.md>)
+- [NavWAM (arXiv 2026)](<papers/2606.13494-NavWAM.md>)
+- [WAM-Nav (arXiv 2026)](<papers/2606.04907-WAM-Nav.md>)
+- [WorldVLN (arXiv 2026)](<papers/2605.15964-WorldVLN.md>)
+- [VGGT-Omega (arXiv 2026)](<papers/2605.15195-VGGT-Omega.md>)
+- [FLUX (arXiv 2026)](<papers/2603.12806-FLUX.md>)
+- [LongStream (CVPR 2026)](<papers/2602.13172-LongStream.md>)
+- [ABot-N0 (arXiv 2026)](<papers/2602.11598-ABot-N0.md>)
+- [LangMap (arXiv 2026)](<papers/2602.02220v3-LangMap.md>)
+- [NaVIDA (arXiv 2026)](<papers/2601.18188-NaVIDA.md>)
+- [FantasyVLN (arXiv 2026)](<papers/2601.13976-FantasyVLN.md>)
+- [SCE-SLAM (arXiv 2026)](<papers/2601.09665-SCE-SLAM.md>)
+- [DriveVLN (CVPR 2026)](<papers/CVPR2026-DriveVLN.md>)
+- [LoGoPlanner (arXiv 2025)](<papers/2512.19629-LoGoPlanner.md>)
+- [D3D-VLP (arXiv 2025)](<papers/2512.12622-D3D-VLP.md>)
+- [InternVLA-N1 (arXiv 2025)](<papers/2512.08186-InternVLA-N1.md>)
+- [DiffusionDriveV2 (arXiv 2025)](<papers/2512.07745-DiffusionDriveV2.md>)
+- [G2VLM (arXiv 2025)](<papers/2511.21688-G2VLM.md>)
+- [SONIC (arXiv 2025)](<papers/2511.07820-SONIC.md>)
+- [SAGE-3D (arXiv 2025)](<papers/2510.21307-SAGE-3D.md>)
+- [DriveVLA-W0 (arXiv 2025)](<papers/2510.12796-DriveVLA-W0.md>)
+- [OmniNav (arXiv 2025)](<papers/2509.25687-OmniNav.md>)
+- [OmniVLA (arXiv 2025)](<papers/2509.19480-OmniVLA.md>)
+- [JanusVLN (arXiv 2025)](<papers/2509.22548-JanusVLN.md>)
+- [MASt3R-Fusion (arXiv 2025)](<papers/2509.20757-MASt3R-Fusion.md>)
+- [GUIDE (arXiv 2025)](<papers/2509.19916-GUIDE.md>)
+- [SLAM-Former (arXiv 2025)](<papers/2509.16909-SLAM-Former.md>)
+- [NavFoM (arXiv 2025)](<papers/2509.12129-NavFoM.md>)
+- [DCReg (arXiv 2025)](<papers/2509.06285-DCReg.md>)
+- [MultiPark (arXiv 2025)](<papers/2508.11537-MultiPark.md>)
+- [OVSegDT (arXiv 2025)](<papers/2508.11479-OVSegDT.md>)
+- [SpatialLM (arXiv 2025)](<papers/2506.07491-SpatialLM.md>)
+- [2DGS-SLAM (arXiv 2025)](<papers/2506.00970-2DGS-SLAM.md>)
+- [NavDP (arXiv 2025)](<papers/2505.08712-NavDP.md>)
+- [Flow-GRPO (arXiv 2025)](<papers/2505.05470-Flow-GRPO.md>)
+- [π₀.₅ (arXiv 2025)](<papers/2504.16054-π₀.₅.md>)
+- [ApexNav (arXiv 2025)](<papers/2504.14478-ApexNav.md>)
+- [Embodied Reasoner (arXiv 2025)](<papers/2503.21696-Embodied-Reasoner.md>)
+- [GR00T N1 (arXiv 2025)](<papers/2503.14734-GR00T-N1.md>)
+- [VGGT (CVPR 2025)](<papers/2503.11651-VGGT.md>)
+- [Hier-SLAM++ (arXiv 2025)](<papers/2502.14931-Hier-SLAM++.md>)
+- [VL-Nav (arXiv 2025)](<papers/2502.00931-VL-Nav.md>)
+- [SLAM3R (arXiv 2024)](<papers/2412.09401-SLAM3R.md>)
+- [Uni-NaVid (arXiv 2024)](<papers/2412.06224-Uni-NaVid.md>)
+- [DiffusionDrive (CVPR 2025)](<papers/2411.15139-DiffusionDrive.md>)
+- [SSR (arXiv 2024)](<papers/2409.18341-SSR.md>)
+- [SpatialBot (arXiv 2024)](<papers/2406.13642-SpatialBot.md>)
+- [OpenVLA (arXiv 2024)](<papers/2406.09246-OpenVLA.md>)
+- [PLUTO (arXiv 2024)](<papers/2404.14327-PLUTO.md>)
+- [SparseDrive (arXiv 2024)](<papers/2405.19620-SparseDrive.md>)
+- [Sparse4D v3 (arXiv 2023)](<papers/2311.11722-Sparse4D-v3.md>)
+- [NoMaD (ICRA 2024)](<papers/2310.07896-NoMaD.md>)
+- [SparseBEV (ICCV 2023)](<papers/2308.09244-SparseBEV.md>)
+- [ACT (RSS 2023)](<papers/2304.13705-ACT.md>)
+- [Diffusion Policy (RSS 2023)](<papers/2303.04137-Diffusion-Policy.md>)
+- [ViNT (CoRL 2023)](<papers/2306.14846-ViNT.md>)
+- [BEVFormer v2 (CVPR 2023)](<papers/2211.10439-BEVFormer-v2.md>)
+- [GNM (ICRA 2023)](<papers/2210.03370-GNM.md>)
+- [BEVFormer (ECCV 2022)](<papers/2203.17270-BEVFormer.md>)
+- [Kimera 3D DSG (IJRR 2021)](<papers/2101.06894-Kimera-3D-DSG.md>)
+- [Kimera SLAM (ICRA 2020)](<papers/1910.02490-Kimera-SLAM.md>)
+- [GraspNet (CVPR 2020)](<papers/1912.13470-GraspNet.md>)
+- [RAFT 光流 (ECCV 2020)](<papers/2003.12039-RAFT-光流.md>)
 
 ## Resource
 #### Online Learning
