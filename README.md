@@ -124,6 +124,7 @@
 
 ### Linux 与嵌入式
 
+- [Thor Ubuntu 24.04 安装 Ubuntu 22.04 + ROS 2 Humble Docker 完整教程](<linux/Thor Ubuntu 24.04 安装 Ubuntu 22.04 + ROS 2 Humble Docker 完整教程.md>)
 - [NVIDIA Jetson Xavier / Orin 常用命令](<linux/Jetson常用命令.md>)
 - [单引号与双引号必须要成对，在上面的配置中仅有一个单引号，因此当你按下 enter 后，](<linux/Shell的变量功能.md>)
 - [NVIDIA Jetson Xavier / Orin 环境配置](<linux/Ubuntu-xavier.md>)
