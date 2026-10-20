@@ -2,8 +2,6 @@
 
 <!-- paper-source: https://chengwei920412.github.io/paper_reading/CVPR2026_DriveVLN_Towards_Mapless_Vision_and_Language_Navigation_in_Autonomous_Driving/technical_report.html -->
 
-> 原文链接：[DriveVLN (CVPR 2026)](https://chengwei920412.github.io/paper_reading/CVPR2026_DriveVLN_Towards_Mapless_Vision_and_Language_Navigation_in_Autonomous_Driving/technical_report.html)
-
 > **论文来源**：CVPR 2026  
 > **原文标题**：DriveVLN: Towards Mapless Vision-and-Language Navigation in Autonomous Driving  
 > **翻译日期**：2026-10-08
