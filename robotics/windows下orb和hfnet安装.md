@@ -2,24 +2,24 @@
 
 ## 1.克隆代码和依赖库到本地
 
-#### orbslam3_opt:
+### orbslam3_opt:
 
 ```
 git clone https://stash.slamtec.com/scm/np/orbslam3_opt.git
 ```
 
-#### Hfnet-slam opt：
+### Hfnet-slam opt：
 
 ```
 git clone https://stash.slamtec.com/scm/np/hfnet_slam_opt.git
 ```
 
 
-#### datasets：
+### datasets：
 
 - \\10.254.0.3\Share\temp\csk\datasets\auroravision
 
-#### 3rdparty：
+### 3rdparty：
 
 - \\10.254.0.3\Share\temp\csk\datasets\auroravision\3rd libs
 
@@ -35,13 +35,13 @@ cd Pangolin
 git reset --hard fe57db532ba2a48319f09a4f2106cc5625ee74a9
 ```
 
-#### cmake：
+### cmake：
 
 https://cmake.org/download/
 
-# 2.编译依赖库
+## 2.编译依赖库
 
-#### Boost：
+### Boost：
 
 cmd下运行
 
@@ -59,7 +59,7 @@ b2 --build-dir=build/x64 runtime-link=shared address-model=64 threading=multi --
 
 ![image-20231221173821485](../media/slam_config/image-20231221173821485.png)
 
-#### Eigen：
+### Eigen：
 
 ![image-20231221173740474](../media/slam_config/image-20231221173740474.png)
 
@@ -85,7 +85,7 @@ b2 --build-dir=build/x64 runtime-link=shared address-model=64 threading=multi --
 
 Eigen安装完成。
 
-#### Glew：
+### Glew：
 
 点击"your_path\glew-2.2.0\build\vc15"下的glew.sln
 
@@ -97,7 +97,7 @@ Eigen安装完成。
 
 切换模式，依次点击生成。
 
-#### Opencv：
+### Opencv：
 
 cmake编译，点击“Configure”
 
@@ -135,7 +135,7 @@ Open Project，正确配置模式，选择ALL_BUILD，右键生成，生成库�
 
 成功生成后，选择INSTALL，右键生成，生成头文件。
 
-#### Pangolin：
+### Pangolin：
 
 CMakeLists中增加一句
 
@@ -199,23 +199,23 @@ index 2f3092c5..f5c5e071 100644
 
 ## 4.编译HFNET-SLAM
 
-#### 深度网络预训练模型
+### 深度网络预训练模型
 
 \\10.254.0.3\Share\temp\csk\datasets\auroravision\pretrained-model\hfnet-exp-orig-041-doublew23-halfbatch-20230814-150000.7z
 
-#### 安装CUDA和CUDNN
+### 安装CUDA和CUDNN
 
 参考教程
 
 https://blog.csdn.net/SHdabai/article/details/131248257
 
-#### 安装TensorRT
+### 安装TensorRT
 
 参考教程
 
 https://www.yii666.com/blog/489723.html
 
-#### 搭建python虚拟环境
+### 搭建python虚拟环境
 
 （我使用的anaconda，构建虚拟环境方便管理多版本python和依赖库）
 
@@ -227,7 +227,7 @@ pip install numpy onnx==1.14.0 tf2onnx packaging
 pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 ```
 
-#### 模型转换
+### 模型转换
 
 在python环境中运行
 
@@ -235,6 +235,6 @@ pip install onnx_graphsurgeon --index-url https://pypi.ngc.nvidia.com
 python -m tf2onnx.convert --saved-model <pretrained tf model dir> --output export/HF-Net.onnx --inputs image:0 --outputs scores_dense:0,local_descriptor_map:0,global_descriptor:
 ```
 
-#### 编译HFNET-SLAM
+### 编译HFNET-SLAM
 
 cmake流程与orb相同

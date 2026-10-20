@@ -65,7 +65,7 @@ int main(int /*argc*/, char* /*argv*/[])
     assert(cb.capacity() == 3);
 
     return 0;
-}c++
+}
 ```
 
 ## 三、分析过程
